@@ -1,0 +1,41 @@
+{
+  "_id": "6648c50dccaded002c60aa88",
+  "title": "Units",
+  "description": "Üniteler",
+  "order": 6,
+  "page_type": "table",
+  "field_features": [
+    {
+      "field_name": "product",
+      "read_only": true,
+      "order": 0,
+      "grid_width": 12
+    },
+    {
+      "field_name": "serial_number",
+      "order": 1,
+      "grid_width": 12
+    },
+    {
+      "field_name": "project",
+      "order": 2,
+      "read_only": true,
+      "grid_width": 12
+    },
+    {
+      "field_name": "added_to_gantt_chart",
+      "read_only": true,
+      "order": 3,
+      "grid_width": 12
+    },
+    { "field_name": "unit_data", "hide": true }
+  ],
+  "section_features": {
+    "exist": {
+      "label": "Satılan"
+    },
+    "unsigned": {
+      "label": "İmza Bekleyen"
+    }
+  }
+}

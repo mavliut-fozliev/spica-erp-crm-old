@@ -1,0 +1,43 @@
+{
+  "_id": "6579ab4fd71b6e002cfbb475",
+  "title": "Prices",
+  "description": "Fiyat Listesi",
+  "order": 13,
+  "page_type": "table",
+  "field_features": [
+    {
+      "field_name": "model",
+      "order": 1,
+      "grid_width": 6,
+      "required": true
+    },
+    {
+      "field_name": "capacity",
+      "order": 2,
+      "grid_width": 6,
+      "required": true
+    },
+    {
+      "field_name": "price",
+      "order": 3,
+      "grid_width": 6
+    }
+  ],
+  "internal_field_features": [
+    {
+      "field_name": "from",
+      "order": 0,
+      "grid_width": 3
+    },
+    {
+      "field_name": "to",
+      "order": 1,
+      "grid_width": 3
+    },
+    {
+      "field_name": "price_per_floor",
+      "order": 2,
+      "grid_width": 6
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+.part-1 {
+  display: flex;
+}
+
+.part-1-left {
+  width: 100%;
+}
+
+.title-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 0.85rem;
+  font-weight: 900;
+}
+
+.subtitle {
+  font-size: 0.65rem;
+  font-weight: 400;
+}
+
+.symbol-box {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(160, 160, 160);
+  width: 100%;
+  margin-top: 20px;
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding: 4px 0;
+}
+
+.symbol-box-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkmark-symbol {
+  &::before {
+    content: "\2714";
+  }
+}
+
+.symbol-box5 {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  .checkmark-symbol2 {
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    &::before {
+      content: "\2714";
+    }
+  }
+  .symbol-box-6 {
+    display: flex;
+    margin-left: 30px;
+  }
+  .symbol-box-7 {
+    display: flex;
+    margin-left: 30px;
+  }
+  .symbol-box-8 {
+    display: flex;
+    padding-left: 55px;
+  }
+}

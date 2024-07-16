@@ -1,0 +1,19 @@
+.notification-button {
+  border: none !important;
+  color: rgb(83, 100, 133) !important;
+  &:hover {
+    background-color: #fff !important;
+  }
+  * {
+    min-width: 16px !important;
+    height: 16px !important;
+    font-size: 0.64rem !important;
+    font-weight: 600 !important;
+    padding: 0 !important;
+  }
+}
+
+.notification {
+  width: 25px !important;
+  height: 22px !important;
+}

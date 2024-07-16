@@ -1,0 +1,29 @@
+{
+  "_id": "6579a793d71b6e002cfbabb6",
+  "title": "Locations",
+  "description": "Lokasyonlar",
+  "order": 12,
+  "page_type": "table",
+  "field_features": [
+    {
+      "field_name": "name",
+      "order": 0,
+      "required": true
+    },
+    {
+      "field_name": "model",
+      "order": 1,
+      "required": true
+    },
+    {
+      "field_name": "fuel_cost_details",
+      "order": 2
+    }
+  ],
+  "internal_field_features": [
+    {
+      "read_only": true,
+      "field_name": "total_cost"
+    }
+  ]
+}

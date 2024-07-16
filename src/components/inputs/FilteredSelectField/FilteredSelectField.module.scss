@@ -1,0 +1,78 @@
+.box {
+  display: flex;
+  min-width: 100px;
+  margin-bottom: 13px;
+  * {
+    font-family: "Inter", sans-serif !important;
+  }
+
+  &-item {
+    width: 100%;
+  }
+}
+
+.inner-box {
+  width: 100%;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  font-size: 0.8rem;
+  font-weight: 600 !important;
+  color: rgb(50, 50, 50);
+}
+
+.form-control {
+  width: 100%;
+  background-color: transparent;
+}
+
+.select {
+  width: 100%;
+  height: 31px;
+  font-size: 0.8rem !important;
+  color: rgb(50, 50, 50);
+  background: #fff;
+
+  &-error {
+    @extend .select;
+    border: 1px solid red !important;
+  }
+
+  @media (max-width: 850px) {
+    width: 150px;
+    margin-right: 5px;
+  }
+  @media (max-width: 600px) {
+    width: 130px;
+    margin-right: 5px;
+  }
+  @media (max-width: 500px) {
+    width: 95px;
+    margin-right: 5px;
+  }
+  @media (max-width: 400px) {
+    width: 80px;
+    margin-right: 5px;
+  }
+}
+
+.item {
+  font-size: 0.8rem !important;
+  max-width: 700px;
+  color: rgb(50, 50, 50);
+
+  &:hover {
+    background-color: rgb(132, 90, 223) !important;
+    color: #fff !important;
+  }
+}
+
+.filter-item {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}

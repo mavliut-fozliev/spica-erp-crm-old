@@ -1,0 +1,139 @@
+.container {
+  display: flex;
+
+  @media (max-width: 850px) {
+    position: fixed !important;
+    z-index: 1000;
+  }
+}
+
+.hide-button {
+  position: fixed;
+  height: 34px;
+  left: 250px;
+  top: 15px;
+
+  z-index: 1000;
+  cursor: pointer;
+  transition: left 0.2s linear;
+
+  &-hidden {
+    @extend .hide-button;
+    left: 0px;
+  }
+
+  @media (max-width: 850px) {
+    display: none;
+    &-hidden {
+      display: initial;
+      z-index: 0;
+    }
+  }
+}
+
+.modal-button {
+  @media (max-width: 850px) {
+    width: 1000px;
+    height: 2000px;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    &-hidden {
+      display: none;
+    }
+  }
+}
+
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 0px 3px -5px;
+  background-color: #111c43;
+  transition: margin-left 0.2s linear;
+  overflow: hidden;
+  * {
+    font-family: "Montserrat", "sans-serif" !important;
+    font-weight: 500 !important;
+  }
+
+  &-hidden {
+    @extend .sidebar;
+    margin-left: -250px;
+  }
+
+  @media (max-width: 850px) {
+    z-index: 1000;
+  }
+}
+
+.logo-text {
+  margin: 20px 20px !important;
+  text-align: center;
+  color: #f3f3f3;
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  user-select: none;
+}
+
+.list {
+  width: 236px;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  &:hover {
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+  }
+
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(219, 223, 225, 0.5);
+    border-radius: 3px;
+  }
+}
+
+.home-page {
+  width: 215px !important;
+  box-shadow: none !important;
+  background-color: #111c43 !important;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 11px;
+}
+
+.home-page-button {
+  border-radius: 10px !important;
+  margin: 0 !important;
+  min-height: 40px !important;
+  * {
+    margin: 0 !important;
+    color: #a3aed1;
+  }
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    * {
+      color: #f3f3f3 !important;
+    }
+  }
+
+  &-selected {
+    @extend .home-page-button;
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    * {
+      color: #f3f3f3 !important;
+      font-weight: 600 !important;
+    }
+  }
+}
+
+.home-page-text {
+  margin-left: 10px !important;
+  color: #a3aed1;
+  font-size: 0.9rem !important;
+}

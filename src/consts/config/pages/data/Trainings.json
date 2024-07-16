@@ -1,0 +1,50 @@
+{
+  "_id": "655de02dd71b6e002cf8eab4",
+  "title": "Trainings",
+  "description": "Tanımlanan Eğitimler",
+  "order": 0,
+  "page_type": "table",
+  "field_features": [
+    {
+      "field_name": "name",
+      "order": 0,
+      "grid_width": 6
+    },
+    {
+      "field_name": "date",
+      "order": 1,
+      "grid_width": 2,
+      "date_only": true
+    },
+    {
+      "field_name": "validity_period",
+      "order": 2,
+      "grid_width": 2
+    },
+    {
+      "field_name": "type",
+      "order": 3,
+      "grid_width": 6
+    },
+    {
+      "field_name": "files",
+      "order": 4,
+      "grid_width": 6
+    }
+  ],
+  "internal_field_features": [
+    {
+      "field_name": "file",
+      "order": 0,
+      "grid_width": 12
+    }
+  ],
+  "section_features": {
+    "exist": {
+      "label": "Aktif"
+    },
+    "passive": {
+      "label": "Pasif"
+    }
+  }
+}

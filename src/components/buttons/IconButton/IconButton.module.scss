@@ -1,0 +1,13 @@
+.button {
+  min-width: 30px !important;
+  border: none !important;
+  color: rgb(83, 100, 133) !important;
+
+  &:hover {
+    background-color: #fff !important;
+  }
+  &-disabled {
+    @extend .button;
+    color: rgb(210, 210, 210) !important;
+  }
+}

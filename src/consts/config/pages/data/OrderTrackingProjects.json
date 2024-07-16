@@ -1,0 +1,73 @@
+{
+  "_id": "6560b7ccd71b6e002cf9654c",
+  "title": "OrderTrackingProjects",
+  "description": "Projeler",
+  "order": 23,
+  "page_type": "table",
+  "page_features": ["no_new_button", "no_remove_button"],
+  "field_features": [
+    {
+      "field_name": "ordered_project",
+      "order": 0,
+      "width": 200,
+      "prevent_adding_and_removing_elements_to_an_array": false,
+      "hide_from_form_data": false,
+      "hide_from_table": false,
+      "read_only": true
+    },
+    {
+      "field_name": "emo",
+      "order": 2,
+      "width": 200,
+      "prevent_adding_and_removing_elements_to_an_array": false,
+      "hide_from_form_data": false,
+      "hide_from_table": true,
+      "read_only": false
+    },
+    {
+      "field_name": "mmo",
+      "order": 3,
+      "width": 200,
+      "prevent_adding_and_removing_elements_to_an_array": false,
+      "hide_from_form_data": false,
+      "hide_from_table": true,
+      "read_only": false
+    },
+    {
+      "field_name": "working_space",
+      "order": 4,
+      "width": 200,
+      "prevent_adding_and_removing_elements_to_an_array": false,
+      "hide_from_form_data": false,
+      "hide_from_table": true,
+      "read_only": false
+    },
+    {
+      "field_name": "preproduction_permit",
+      "order": 5,
+      "width": 200,
+      "prevent_adding_and_removing_elements_to_an_array": false,
+      "hide_from_form_data": false,
+      "hide_from_table": true,
+      "read_only": false
+    },
+    {
+      "field_name": "assembly_permit",
+      "order": 6,
+      "width": 200,
+      "prevent_adding_and_removing_elements_to_an_array": false,
+      "hide_from_form_data": false,
+      "hide_from_table": true,
+      "read_only": false
+    },
+    {
+      "field_name": "corporation_permit",
+      "order": 7,
+      "width": 200,
+      "prevent_adding_and_removing_elements_to_an_array": false,
+      "hide_from_form_data": false,
+      "hide_from_table": true,
+      "read_only": false
+    }
+  ]
+}

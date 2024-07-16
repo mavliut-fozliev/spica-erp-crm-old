@@ -1,0 +1,46 @@
+export type Tproposed_solution_formData = {
+  asansor_adi?: string;
+  kapasite_kg?: string;
+  kapasite_kisi?: string;
+  hiz?: string;
+  makine_dairesi?: string;
+  motor_gucu?: string;
+  kontrol_sistemi?: string;
+  saate_trip_sayisi?: string;
+  durak_sayisi?: string;
+  first_floor?: string;
+  kapi_sayisi?: string;
+  high_floor?: string;
+  giris_yonu?: string;
+  seyir_mesafesi?: string;
+  saft_olculeri_w?: string;
+  saft_olculeri_d?: string;
+  son_kat_mesafesi?: string;
+  kuyu_derinligi?: string;
+  kabin_w?: string;
+  kabin_d?: string;
+  kabin_h?: string;
+  kapi_wd?: string;
+  kapi_hd?: string;
+  kapi_tipi?: string;
+  saft_konstruksiyonu?: string;
+  kabin_dizayni?: string;
+  kabin_yan_duvar?: string;
+  kabin_arka_duvar?: string;
+  kabin_kapisi?: string;
+  kabin_zemin_tipi?: string;
+  kabin_zemin_rengi?: string;
+  kabin_tavani?: string;
+  kabin_aydinlatmasi?: string;
+  kabin_butonu?: string;
+  kabin_butonu_konumu?: string;
+  kabin_kupestesi?: string;
+  kabin_aynasi?: string;
+  kat_kapisi?: string;
+  kat_butonu?: string;
+  kat_butonu_konumu?: string;
+  adet_fiyati?: string;
+  adet?: string; // get
+  toplam_fiyat?: string;
+  toplam_fiyatW?: string; //auto
+};

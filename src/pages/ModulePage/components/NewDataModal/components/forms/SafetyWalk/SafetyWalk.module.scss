@@ -1,0 +1,435 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: rgb(210, 0, 0);
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.subtitle {
+  color: rgb(210, 0, 0);
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-left: 5px;
+}
+
+.title-text {
+  color: rgb(210, 0, 0);
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.date {
+  font-size: 0.75rem;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.input-1 {
+  margin-left: 200px;
+}
+
+.slash {
+  font-size: 0.85rem;
+  margin-left: 5px;
+}
+
+.date-text {
+  font-size: 0.5rem;
+  font-weight: 600;
+  margin-right: 32px;
+}
+
+.date-2 {
+  font-size: 0.75rem;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.date-3 {
+  font-size: 0.65rem;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.yapilan-is-text {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  margin-left: 40px;
+  margin-right: 60px;
+}
+
+.ul-text {
+  .ul-text-2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: -230px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    li {
+      margin-top: 2px;
+    }
+  }
+}
+
+.checkbox-text {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.montaj-text {
+  margin-left: 5px;
+}
+
+.servis-text {
+  margin-left: 5px;
+}
+
+.tamirat-text {
+  margin-left: 5px;
+}
+
+.modernizasyon-text {
+  margin-left: 5px;
+}
+
+.fabrika-text {
+  margin-left: 5px;
+}
+.diğer-text {
+  margin-left: 5px;
+}
+
+.saha-adres {
+  font-size: 0.75rem;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.box {
+  display: flex;
+  width: 100%;
+  height: 20px;
+  margin-right: 100px;
+  margin-top: 20px;
+  background-color: rgb(206, 204, 204);
+  font-style: italic;
+  font-weight: 600;
+  .box-text {
+    margin-top: 2px;
+    margin-left: 10px;
+    font-size: 0.75rem;
+  }
+}
+
+.geri-bildirim-text {
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-bottom: 0.5px solid #000;
+}
+
+.date-4 {
+  font-size: 0.65rem;
+  font-weight: 900;
+}
+
+.ul-text-3 {
+  .ul-text-4 {
+    margin-left: 25px;
+    font-size: 0.6rem;
+    font-weight: 900;
+    li {
+      margin-top: 5px;
+    }
+  }
+}
+
+.düzeltici-bildirim-text {
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-bottom: 0.5px solid #000;
+}
+
+.date-5 {
+  font-size: 0.65rem;
+  font-weight: 900;
+}
+
+.hareket-gozlem {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 0.65rem;
+  font-weight: 900;
+}
+
+.ul-text-5 {
+  .ul-text-6 {
+    margin-left: 25px;
+    font-size: 0.6rem;
+    font-weight: 900;
+    li {
+      margin-top: 5px;
+    }
+  }
+}
+
+.checkbox-text-2 {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.checkbox-2-text {
+  margin-left: 5px;
+}
+
+.checkbox-2-text2 {
+  margin-left: 5px;
+}
+
+.checkbox-2-text3 {
+  margin-left: 5px;
+}
+
+.checkbox-2-text4 {
+  margin-left: 5px;
+}
+
+.checkbox-2-text5 {
+  margin-left: 5px;
+}
+
+.checkbox-2-text6 {
+  margin-left: 5px;
+}
+
+.checkbox-2-text7 {
+  margin-left: 5px;
+}
+
+.checkbox-2-text8 {
+  margin-left: 5px;
+}
+
+.checkbox-2-text9 {
+  margin-left: 5px;
+}
+
+.checkbox-2-text10 {
+  margin-left: 5px;
+}
+
+.checkbox-2-text11 {
+  margin-left: 5px;
+}
+
+.gözlemci-not {
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 0.6rem;
+  font-weight: 900;
+}
+
+.number {
+  .number-1 {
+    margin-top: 1.5px;
+    margin-left: 10px;
+    font-size: 0.55rem;
+  }
+  .number-text {
+    margin-top: 2.5px;
+    margin-left: 20px;
+    font-weight: 900;
+    font-size: 0.45rem;
+  }
+}
+
+.number-2 {
+  .number-3 {
+    margin-top: 1.5px;
+    margin-left: 10px;
+    font-size: 0.55rem;
+  }
+  .number-text-2 {
+    margin-top: 2.5px;
+    margin-left: 20px;
+    font-weight: 900;
+    font-size: 0.45rem;
+  }
+}
+
+.number-4 {
+  .number-5 {
+    margin-top: 1.5px;
+    margin-left: 10px;
+    font-size: 0.55rem;
+  }
+  .number-text-3 {
+    margin-top: 2.5px;
+    margin-left: 20px;
+    font-weight: 900;
+    font-size: 0.45rem;
+  }
+}
+
+.related {
+  margin-left: 25px;
+  margin-top: 20px;
+  font-size: 0.35rem;
+  font-weight: 900;
+}
+.safety {
+  margin-left: 25px;
+  font-size: 0.35rem;
+  font-weight: 900;
+}
+
+.sis-sistemi-text {
+  color: rgb(210, 0, 0);
+  margin-left: 2px;
+  font-weight: 900;
+  margin-top: -72px;
+  font-size: 0.5rem;
+}
+
+.risk-tehlike-text {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.teknisyen-raporlari-title {
+  font-size: 0.75rem;
+  font-weight: 900;
+  margin-left: 20px;
+}
+
+.teknisyen-raporlari-text {
+  font-size: 0.75rem;
+  font-weight: 900;
+  margin-bottom: -10px;
+}
+
+.teknisyen-raporlari-text-2 {
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+.checkbox4 {
+  margin-left: 3px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+
+  @media (max-width: 700px) {
+    width: 400px;
+  }
+
+  @media (max-width: 500px) {
+    width: 300px;
+  }
+}
+
+.box2 {
+  width: 7px;
+  height: 34px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 100;
+  margin-top: 20px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 4px;
+    width: 1px;
+    height: 26px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 14px;
+    width: 112px;
+    height: 5px;
+    background-color: rgb(200, 0, 0);
+
+    @media (max-width: 700px) {
+      width: 72px;
+    }
+
+    @media (max-width: 500px) {
+      width: 52px;
+    }
+  }
+
+  &-without-line {
+    @extend .box2;
+    &::before {
+      display: none;
+    }
+  }
+}
+
+.checkbox2 {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+
+  & > svg {
+    display: none;
+    position: absolute;
+    height: 100%;
+  }
+}
+
+.number-line {
+  font-family: "Inter";
+  font-size: 0.6rem;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.description {
+  font-family: "Inter";
+  font-size: 0.58rem;
+  opacity: 0.6;
+  width: 110px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.checkmark {
+  position: absolute;
+  left: -18px;
+  top: 0px;
+  width: 36px;
+  height: 28px;
+  border: 3px solid rgb(200, 0, 0);
+  border-radius: 50%;
+}
+
+.sw-aksiyon-text {
+  font-size: 0.75rem;
+  font-weight: 900;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.baslik-text {
+  font-weight: 500;
+  margin-top: 25px;
+  font-size: 0.75rem;
+}

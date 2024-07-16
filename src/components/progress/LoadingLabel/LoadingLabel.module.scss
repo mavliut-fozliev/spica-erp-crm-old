@@ -1,0 +1,23 @@
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  padding: 8px 13px;
+  margin: 16px 0;
+  background-color: rgba(73, 182, 245, 0.1);
+  max-width: 92px;
+}
+
+.text {
+  color: rgb(73, 182, 245);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.progress {
+  width: 13px !important;
+  height: 13px !important;
+  margin-left: 10px;
+  margin-bottom: 3px;
+}

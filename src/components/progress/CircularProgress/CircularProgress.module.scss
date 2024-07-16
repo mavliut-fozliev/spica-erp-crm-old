@@ -1,0 +1,24 @@
+.progress {
+  position: absolute;
+  left: 44vw;
+  top: 30%;
+  width: 300px !important;
+  height: 300px !important;
+  &:focus {
+    outline: none;
+  }
+}
+
+.text {
+  position: absolute;
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 600;
+  top: 30%;
+  left: 44vw;
+  width: 300px !important;
+  height: 300px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

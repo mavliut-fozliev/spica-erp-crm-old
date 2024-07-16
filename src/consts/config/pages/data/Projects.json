@@ -1,0 +1,129 @@
+{
+  "_id": "651e842a82063a002c6fa24f",
+  "title": "Projects",
+  "description": "Projeler",
+  "order": 2,
+  "page_type": "table",
+  "field_features": [
+    {
+      "field_name": "customer",
+      "order": 0,
+      "grid_width": 4,
+      "required": true
+    },
+    {
+      "field_name": "name",
+      "order": 1,
+      "grid_width": 4,
+      "required": true
+    },
+    {
+      "field_name": "related_person",
+      "order": 2,
+      "grid_width": 4,
+      "required": true
+    },
+    {
+      "field_name": "related_person_phone",
+      "order": 3,
+      "grid_width": 4,
+      "required": true
+    },
+    {
+      "field_name": "related_person_role",
+      "order": 4,
+      "grid_width": 4,
+      "required": true
+    },
+    {
+      "field_name": "related_person_email",
+      "order": 5,
+      "grid_width": 4,
+      "required": true
+    },
+    {
+      "field_name": "building_drawing",
+      "order": 6,
+      "hide_from_table": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "products",
+      "order": 14,
+      "grid_width": 12,
+      "hide_from_table": true,
+      "required": true
+    },
+    {
+      "field_name": "field_control_form",
+      "order": 7,
+      "hide_from_table": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "photos",
+      "order": 8,
+      "hide_from_table": true,
+      "grid_width": 6,
+      "more_than_one_file": true
+    },
+    {
+      "field_name": "additional_document",
+      "order": 9,
+      "hide_from_table": true,
+      "grid_width": 6,
+      "more_than_one_file": true
+    },
+    {
+      "field_name": "location",
+      "order": 10,
+      "grid_width": 4,
+      "required": true
+    },
+    {
+      "field_name": "reminder",
+      "order": 11,
+      "grid_width": 2,
+      "required": true
+    },
+    {
+      "field_name": "comment_section",
+      "order": 12,
+      "grid_width": 5
+    },
+    {
+      "field_name": "map_locations",
+      "order": 13,
+      "grid_width": 12
+    },
+    {
+      "field_name": "serial_number",
+      "order": 14,
+      "read_only": true,
+      "grid_width": 2
+    },
+    {
+      "field_name": "created_date",
+      "order": 15,
+      "hide_from_form_data": true,
+      "grid_width": 4
+    }
+  ],
+  "internal_field_features": [
+    {
+      "grid_width": 11,
+      "field_name": "product_stepped_brand_type_model",
+      "order": 0
+    },
+    {
+      "grid_width": 1,
+      "field_name": "count",
+      "order": 1
+    },
+    {
+      "field_name": "location",
+      "order": 0,
+      "grid_width": 12
+    }
+  ]
+}

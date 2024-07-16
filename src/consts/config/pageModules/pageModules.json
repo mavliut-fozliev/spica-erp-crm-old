@@ -1,0 +1,60 @@
+[
+  {
+    "module_name": "Satış Modülü",
+    "pages": ["Products", "Offers", "Customers", "Projects", "Orders", "Contracts", "Units"],
+    "bound_modules": ["Montaj Modülü"]
+  },
+  {
+    "module_name": "Montaj Modülü",
+    "pages": ["AssemblyProjects", "AssemblyPlan", "FieldInspections", "FieldTeams", "ProgressPayments", "Locations", "Prices", "MonthlyProgressPayments"],
+    "bound_modules": ["Satış Modülü", "İnsan Kaynakları"],
+    "submodules": [
+      {
+        "name": "Hakedişler",
+        "pages": ["MonthlyProgressPayments", "Prices", "Locations", "ProgressPayments"]
+      }
+    ]
+  },
+  {
+    "module_name": "Eğitimler",
+    "pages": ["Trainings", "AssignedTrainings", "EmployeesTrainings"],
+    "bound_modules": ["İnsan Kaynakları"]
+  },
+  {
+    "module_name": "İSG Modülü",
+    "pages": ["EmployeesOHS", "SafetyWalk"],
+    "bound_modules": ["Satış Modülü", "İnsan Kaynakları"]
+  },
+  {
+    "module_name": "İnsan Kaynakları",
+    "pages": ["Employees", "Overtime", "AnnualLeave", "Vehicles", "TallySheet"],
+    "bound_modules": ["İSG Modülü", "Satış Modülü", "Eğitimler"]
+  },
+  {
+    "module_name": "Sipariş Takibi",
+    "pages": ["OrderTrackingProjects"],
+    "bound_modules": ["Satış Modülü"]
+  },
+  {
+    "module_name": "SAIS Modülü",
+    "pages": ["SAISProjects"],
+    "bound_modules": ["Satış Modülü"]
+  },
+  {
+    "module_name": "Bakım Modülü",
+    "pages": ["MaintenanceOffers", "MaintenanceContracts", "MaintenanceUnits", "MaintenancePlanning"],
+    "bound_modules": ["Satış Modülü", "İnsan Kaynakları"]
+  },
+  {
+    "module_name": "Muhasebe Modülü",
+    "pages": []
+  },
+  {
+    "module_name": "Satın Alma Modülü",
+    "pages": []
+  },
+  {
+    "module_name": "Depo Modülü",
+    "pages": []
+  }
+]

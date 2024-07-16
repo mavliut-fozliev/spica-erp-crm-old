@@ -1,0 +1,158 @@
+@import "consts/colors/colors";
+
+.description-box {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  height: 5%;
+
+  &-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-left: 20px;
+    margin-bottom: 4px;
+  }
+
+  &-icon-container {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    cursor: pointer;
+    position: relative;
+
+    &-checked {
+      @extend.description-box-icon-container;
+      &::before {
+        content: "\2713";
+        position: absolute;
+        left: 3px;
+        top: -4px;
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  &-icon {
+    width: 20px !important;
+    height: 20px !important;
+
+    &-passed {
+      @extend.description-box-icon;
+      color: rgba($danger-color, 0.6);
+    }
+
+    &-empty {
+      @extend.description-box-icon;
+      color: rgba($disabled-color, 0.6);
+    }
+
+    &-success-close {
+      @extend.description-box-icon;
+      color: rgba($warning-color, 0.6);
+    }
+
+    &-success-far {
+      @extend.description-box-icon;
+      color: rgba($success-color, 0.6);
+    }
+  }
+
+  &-text {
+    user-select: none;
+  }
+}
+
+.next-control-title {
+  font-size: 0.8rem;
+  font-weight: 500;
+  position: absolute;
+  left: 700px;
+
+  @media (max-width: 1050px) {
+    position: initial;
+  }
+}
+
+.row {
+  padding-top: 7px;
+}
+
+.unit {
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+
+  &-title {
+    align-self: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 2px 6px;
+  }
+}
+
+.next-control-days {
+  position: absolute;
+  left: 700px;
+  font-size: 0.8rem;
+  align-self: center;
+  font-weight: 500;
+
+  @media (max-width: 1050px) {
+    position: initial;
+  }
+}
+
+.expand-icon {
+  width: 21px;
+  height: 21px;
+}
+
+.form-titles {
+  display: flex;
+
+  &-item {
+    width: 250px;
+    user-select: none;
+  }
+}
+
+.form-values {
+  display: flex;
+}
+
+.inform {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  margin-top: 6px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: rgb(#777, 0.1);
+
+  &:hover {
+    // color: blue;
+    background-color: rgb(#777, 0.3);
+  }
+
+  &-item {
+    font-size: 0.8rem;
+    user-select: none;
+    width: 250px;
+  }
+}
+
+.add-button {
+  cursor: pointer;
+  margin-top: 8px;
+  margin-left: 2px;
+  width: 20px;
+  height: 20px;
+
+  &:hover {
+    scale: 1.4;
+    transition: ease 0.2s;
+  }
+}

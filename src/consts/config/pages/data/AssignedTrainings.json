@@ -1,0 +1,34 @@
+{
+  "_id": "662f6f043931f4002bf666fb",
+  "title": "AssignedTrainings",
+  "description": "Yeni Eğitimler",
+  "order": 1,
+  "page_type": "table",
+  "field_features": [
+    {
+      "field_name": "training",
+      "order": 0,
+      "grid_width": 6,
+      "required": true
+    },
+    {
+      "field_name": "date",
+      "order": 1,
+      "grid_width": 6,
+      "required": true
+    },
+    {
+      "field_name": "employees",
+      "order": 2,
+      "grid_width": 6,
+      "required": true
+    }
+  ],
+  "internal_field_features": [
+    {
+      "field_name": "employee",
+      "order": 0,
+      "grid_width": 12
+    }
+  ]
+}

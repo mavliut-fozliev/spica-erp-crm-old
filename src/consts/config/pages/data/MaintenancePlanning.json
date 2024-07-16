@@ -1,0 +1,50 @@
+{
+  "_id": "6645e1283931f4002bf7fac7",
+  "title": "MaintenancePlanning",
+  "description": "Bakım Planlaması",
+  "order": 3,
+  "page_type": "ganttChart",
+  "page_features": ["no_new_button"],
+  "field_features": [
+    {
+      "field_name": "employee",
+      "read_only": true,
+      "order": 0,
+      "is_gantt_chart_team": true
+    },
+    {
+      "field_name": "unit",
+      "order": 3,
+      "grid_width": 6,
+      "disable_editing": true,
+      "required": true
+    },
+    {
+      "field_name": "start_date",
+      "order": 4,
+      "grid_width": 3,
+      "date_only": true
+    },
+    {
+      "field_name": "end_date",
+      "order": 5,
+      "grid_width": 3,
+      "read_only": true,
+      "date_only": true
+    },
+    {
+      "field_name": "amount_of_days",
+      "order": 6,
+      "grid_width": 2,
+      "required": true
+    },
+    {
+      "field_name": "progress",
+      "order": 7,
+      "grid_width": 4,
+      "slider": true
+    },
+
+    { "field_name": "dependencies", "hide": true }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "655f30f3d71b6e002cf91da0",
+  "title": "TallySheet",
+  "description": "Puantaj",
+  "order": 21,
+  "page_type": "table",
+  "field_features": [
+    {
+      "field_name": "title",
+      "order": 0,
+      "width": 200,
+      "prevent_adding_and_removing_elements_to_an_array": false,
+      "hide_from_table": false,
+      "hide_from_form_data": false,
+      "read_only": false,
+      "date_only": false,
+      "time_only": false,
+      "slider": false,
+      "hide_from_detail_page": false,
+      "disable_editing": false,
+      "grid_width": 6
+    },
+    {
+      "field_name": "description",
+      "order": 1,
+      "width": 200,
+      "prevent_adding_and_removing_elements_to_an_array": false,
+      "hide_from_table": false,
+      "hide_from_form_data": false,
+      "read_only": false,
+      "date_only": false,
+      "time_only": false,
+      "slider": false,
+      "hide_from_detail_page": false,
+      "disable_editing": false,
+      "grid_width": 6
+    }
+  ]
+}

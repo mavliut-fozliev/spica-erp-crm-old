@@ -1,0 +1,34 @@
+.home {
+  height: 100vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  transition: 0.2s linear;
+
+  @media (max-width: 850px) {
+    display: initial;
+  }
+
+  &-fullScreen {
+    @extend .home;
+    grid-template-columns: 10px 1fr;
+  }
+}
+
+.main {
+  overflow: hidden;
+  // max-height: 100vh;
+}
+
+.content {
+  // padding: 10px;
+  height: calc(100% - 64px);
+  width: 100%;
+  overflow-y: hidden;
+  // max-height: calc(100vh - 100px);
+}
+
+.sidebar-item {
+  color: #a3aed1 !important;
+  margin: 0 !important;
+}

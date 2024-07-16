@@ -1,0 +1,80 @@
+{
+  "_id": "6645e0333931f4002bf7fa30",
+  "title": "MaintenanceUnits",
+  "description": "Üniteler",
+  "order": 2,
+  "page_type": "table",
+  "field_features": [
+    {
+      "field_name": "product",
+      "order": 1,
+      "grid_width": 12,
+      "read_only": true
+    },
+    {
+      "field_name": "unit",
+      "order": 2,
+      "grid_width": 12,
+      "read_only": true
+    },
+    {
+      "field_name": "building_name",
+      "order": 3,
+      "grid_width": 12
+    },
+    {
+      "field_name": "client_name",
+      "order": 4,
+      "grid_width": 12
+    },
+    {
+      "field_name": "maintenance_package",
+      "order": 5,
+      "grid_width": 12
+    },
+    {
+      "field_name": "employee",
+      "order": 6,
+      "grid_width": 12
+    },
+    {
+      "field_name": "contract_date",
+      "order": 7,
+      "grid_width": 12,
+      "date_only": true
+    },
+    { "field_name": "start_date", "hide": true },
+    { "field_name": "end_date", "hide": true },
+    { "field_name": "signed_maintenance", "hide": true },
+    { "field_name": "building_name", "hide": true },
+    { "field_name": "client_name", "hide": true },
+    { "field_name": "service_type", "hide": true },
+    { "field_name": "maintenance_contract", "hide": true },
+    { "field_name": "customer_mail", "hide": true },
+    { "field_name": "customer_phone_number", "hide": true },
+    { "field_name": "customer_mobile_number", "hide": true },
+    { "field_name": "location", "hide": true },
+    { "field_name": "number_of_stops", "hide": true },
+    { "field_name": "standard_price", "hide": true },
+    { "field_name": "elite_price", "hide": true },
+    { "field_name": "premium_price", "hide": true },
+    { "field_name": "reference_number", "hide": true }
+  ],
+  "section_features": {
+    "exist": {
+      "hide_from_page": true,
+      "hide_from_form_data": true
+    },
+    "approved": {
+      "hide_from_page": true,
+      "hide_from_form_data": true
+    },
+    "signed": {
+      "label": "Aktif"
+    },
+    "passive": {
+      "label": "Pasif"
+    }
+  },
+  "default_section": "signed"
+}

@@ -1,0 +1,48 @@
+{
+  "_id": "662f6ecc3931f4002bf66691",
+  "title": "EmployeesTrainings",
+  "description": "Personeller",
+  "order": 2,
+  "page_type": "table",
+  "page_features": ["no_new_button", "no_remove_button"],
+  "field_features": [
+    {
+      "field_name": "employee",
+      "order": 0,
+      "grid_width": 6,
+      "read_only": true
+    },
+    {
+      "field_name": "recieved_trainings",
+      "order": 1,
+      "prevent_adding_and_removing_elements_to_an_array": true
+    }
+  ],
+  "internal_field_features": [
+    {
+      "field_name": "training_name",
+      "order": 0,
+      "grid_width": 12,
+      "read_only": true
+    },
+    {
+      "field_name": "start_date",
+      "order": 1,
+      "grid_width": 6,
+      "read_only": true,
+      "date_only": true
+    },
+    {
+      "field_name": "end_date",
+      "order": 2,
+      "grid_width": 6,
+      "read_only": true,
+      "date_only": true
+    },
+    {
+      "field_name": "certificate",
+      "order": 3,
+      "grid_width": 12
+    }
+  ]
+}

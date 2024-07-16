@@ -1,0 +1,94 @@
+{
+  "_id": "655cc987d71b6e002cf8b478",
+  "title": "EmployeesOHS",
+  "description": "Personeller",
+  "order": 14,
+  "page_type": "table",
+  "page_features": ["no_new_button", "no_remove_button"],
+  "field_features": [
+    {
+      "field_name": "name",
+      "order": 0,
+      "grid_width": 12,
+      "required": true
+    },
+    {
+      "field_name": "equipments",
+      "order": 1,
+      "grid_width": 12
+    },
+    {
+      "field_name": "cautions_and_punishments",
+      "order": 2,
+      "grid_width": 12
+    },
+
+    { "field_name": "profile_photo", "hide": true },
+    { "field_name": "tc_identity", "hide": true },
+    { "field_name": "passport_number", "hide": true },
+    { "field_name": "nationality", "hide": true },
+    { "field_name": "job", "hide": true },
+    { "field_name": "department", "hide": true },
+    { "field_name": "other_nationality", "hide": true },
+    { "field_name": "birth_date", "hide": true },
+    { "field_name": "start_date", "hide": true },
+    { "field_name": "diploma", "hide": true },
+    { "field_name": "place_of_residence", "hide": true },
+    { "field_name": "civil_registry", "hide": true },
+    { "field_name": "passport", "hide": true },
+    { "field_name": "criminal_record", "hide": true },
+    { "field_name": "employment_contract", "hide": true },
+    { "field_name": "provided_certificates", "hide": true },
+    { "field_name": "personnel_sertifications", "hide": true },
+    { "field_name": "debited_equipments", "hide": true },
+    { "field_name": "received_trainings", "hide": true },
+    { "field_name": "permit_required", "hide": true },
+    { "field_name": "permit_start_date", "hide": true },
+    { "field_name": "permit_end_date", "hide": true },
+    { "field_name": "work_permit_document", "hide": true },
+    { "field_name": "remaining_leave", "hide": true },
+    { "field_name": "fmi_remaining_leave", "hide": true },
+    { "field_name": "dismissal_date", "hide": true },
+    { "field_name": "dismissal_certificate", "hide": true },
+    { "field_name": "total_leave", "hide": true }
+  ],
+  "internal_field_features": [
+    {
+      "field_name": "name",
+      "order": 0,
+      "grid_width": 10,
+      "parent": "equipments"
+    },
+    {
+      "field_name": "amount",
+      "order": 1,
+      "grid_width": 2,
+      "parent": "equipments"
+    },
+    {
+      "field_name": "instructor",
+      "order": 0,
+      "grid_width": 7
+    },
+    {
+      "field_name": "date",
+      "order": 1,
+      "grid_width": 5
+    },
+    {
+      "field_name": "notes",
+      "order": 2,
+      "grid_width": 12,
+      "parent": "cautions_and_punishments"
+    },
+    {
+      "field_name": "file",
+      "order": 3,
+      "grid_width": 12
+    }
+  ],
+  "section_features": {
+    "exist": { "label": "Aktif" },
+    "passive": { "label": "Pasif" }
+  }
+}

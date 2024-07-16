@@ -1,0 +1,95 @@
+{
+  "_id": "655f3140d71b6e002cf91f0b",
+  "title": "AnnualLeave",
+  "description": "İzinler",
+  "order": 19,
+  "page_type": "table",
+  "field_features": [
+    {
+      "field_name": "employee",
+      "order": 0,
+      "disable_editing": true,
+      "grid_width": 6,
+      "required": true
+    },
+    {
+      "field_name": "leave_type",
+      "order": 1,
+      "disable_editing": true,
+      "grid_width": 6,
+      "required": true
+    },
+    {
+      "field_name": "start_date",
+      "order": 2,
+      "date_only": true,
+      "disable_editing": true,
+      "grid_width": 6,
+      "required": true
+    },
+    {
+      "field_name": "end_date",
+      "order": 3,
+      "date_only": true,
+      "disable_editing": true,
+      "grid_width": 6,
+      "required": true
+    },
+    {
+      "disable_editing": true,
+      "grid_width": 6,
+      "order": 4,
+      "time_only": true,
+      "field_name": "start_time",
+      "required": true
+    },
+    {
+      "disable_editing": true,
+      "grid_width": 6,
+      "order": 5,
+      "time_only": true,
+      "field_name": "end_time",
+      "required": true
+    },
+    {
+      "field_name": "leave_amount_show",
+      "grid_width": 2,
+      "order": 6,
+      "read_only": true
+    },
+    {
+      "field_name": "remaining_leave_amount",
+      "order": 7,
+      "grid_width": 2,
+      "read_only": true
+    },
+    {
+      "field_name": "department_head_approval",
+      "order": 8,
+      "grid_width": 6
+    },
+    {
+      "field_name": "manager_approval",
+      "order": 9,
+      "grid_width": 6
+    },
+    {
+      "field_name": "reason",
+      "order": 10,
+      "grid_width": 6
+    },
+    {
+      "grid_width": 6,
+      "order": 0,
+      "field_name": "leave_amount",
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "hide_from_table": true
+    },
+    {
+      "grid_width": 6,
+      "order": 11,
+      "field_name": "medical_report"
+    }
+  ]
+}

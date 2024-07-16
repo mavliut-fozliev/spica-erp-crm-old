@@ -1,0 +1,25 @@
+.change-button {
+  cursor: pointer;
+  display: flex;
+  margin-right: 10px;
+  &:hover {
+    color: blue;
+  }
+}
+
+.row-button {
+  cursor: pointer;
+  user-select: none;
+  &:hover {
+    color: blue;
+  }
+}
+
+.export-button {
+  margin-left: 4px;
+  cursor: pointer;
+  user-select: none;
+  &:hover {
+    color: blue;
+  }
+}

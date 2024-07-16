@@ -1,0 +1,108 @@
+{
+  "_id": "6527b072ffa6b3002d10bfd3",
+  "title": "Orders",
+  "description": "Siparişler",
+  "order": 5,
+  "page_type": "table",
+  "page_features": ["no_new_button", "no_remove_button"],
+  "field_features": [
+    {
+      "field_name": "name",
+      "order": 0,
+      "read_only": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "customer",
+      "order": 1,
+      "read_only": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "project",
+      "order": 2,
+      "read_only": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "offer",
+      "order": 3,
+      "read_only": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "product",
+      "order": 4,
+      "read_only": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "product_count",
+      "order": 5,
+      "read_only": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "delivery_date",
+      "order": 6,
+      "date_only": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "estimated_arrival_date",
+      "order": 7,
+      "date_only": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "schindler_files",
+      "order": 8,
+      "hide_from_table": true,
+      "grid_width": 6,
+      "more_than_one_file": true
+    },
+    {
+      "field_name": "pull_signal_form",
+      "order": 9,
+      "hide_from_table": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "notes_for_assembly",
+      "order": 10,
+      "grid_width": 6
+    },
+    {
+      "field_name": "invoice",
+      "order": 11,
+      "hide_from_table": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "units",
+      "order": 12,
+      "prevent_adding_and_removing_elements_to_an_array": true,
+      "grid_width": 12
+    }
+  ],
+  "internal_field_features": [
+    {
+      "field_name": "product",
+      "order": 0,
+      "read_only": true,
+      "grid_width": 5
+    },
+    {
+      "field_name": "serial_number",
+      "order": 1,
+      "read_only": true,
+      "grid_width": 5
+    },
+    {
+      "field_name": "added_to_gantt_chart",
+      "order": 2,
+      "read_only": true,
+      "grid_width": 2
+    }
+  ]
+}

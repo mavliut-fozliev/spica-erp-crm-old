@@ -1,0 +1,20 @@
+{
+  "_id": "655f2fd0d71b6e002cf9186e",
+  "title": "SAISProjects",
+  "description": "Projeler",
+  "order": 24,
+  "page_type": "table",
+  "form_data_type": "custom",
+  "page_features": ["no_new_button", "no_remove_button"],
+  "field_features": [
+    {
+      "field_name": "ordered_project",
+      "order": 0,
+      "width": 200,
+      "prevent_adding_and_removing_elements_to_an_array": false,
+      "hide_from_table": false,
+      "hide_from_form_data": false,
+      "read_only": true
+    }
+  ]
+}

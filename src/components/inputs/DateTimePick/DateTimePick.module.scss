@@ -1,0 +1,21 @@
+.container {
+  margin-bottom: 16px !important;
+}
+
+.label {
+  font-size: 0.8rem;
+  font-weight: 600 !important;
+  color: rgb(50, 50, 50);
+}
+
+.picker {
+  height: 30px !important;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  &-read-only {
+    @extend .picker;
+    background: rgb(240, 240, 240);
+    border-radius: 5px;
+  }
+}

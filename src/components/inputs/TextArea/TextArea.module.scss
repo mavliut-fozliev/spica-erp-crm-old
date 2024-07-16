@@ -1,0 +1,40 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: rgb(50, 50, 50);
+}
+
+.text-area {
+  resize: none;
+  height: 30px;
+  font-size: 0.8rem !important;
+  padding: 10px;
+  border: 1px solid rgb(225, 225, 225) !important;
+  margin: 5px 0 !important;
+  border-radius: 4px;
+  color: rgb(50, 50, 50);
+  background: #fff;
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  @media (max-width: 850px) {
+    max-width: 700px;
+  }
+  @media (max-width: 500px) {
+    max-width: 250px;
+  }
+
+  &-read-only {
+    @extend .text-area;
+    background-color: rgb(240, 240, 240);
+  }
+}

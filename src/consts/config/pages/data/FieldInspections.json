@@ -1,0 +1,372 @@
+{
+  "_id": "656ed054d71b6e002cfa47f0",
+  "title": "FieldInspections",
+  "description": "Saha Kontrolleri",
+  "order": 9,
+  "page_type": "custom",
+  "form_data_type": "custom",
+  "field_features": [
+    {
+      "field_name": "project",
+      "order": 0,
+      "read_only": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "unit",
+      "order": 1,
+      "read_only": true
+    },
+    {
+      "field_name": "information",
+      "order": 2,
+      "prevent_adding_and_removing_elements_to_an_array": true,
+      "grid_width": 6
+    }
+  ],
+  "internal_field_features": [
+    {
+      "grid_width": 6,
+      "field_name": "date",
+      "order": 0
+    },
+    {
+      "grid_width": 6,
+      "field_name": "next_date",
+      "order": 1
+    },
+    {
+      "grid_width": 6,
+      "field_name": "field_control_form",
+      "order": 2,
+      "type": "mini"
+    },
+    {
+      "feild_name": "customer_name",
+      "grid_width": 6,
+      "hide_from_form_data": true,
+      "hide_from_detail_page": true,
+      "field_name": "customer_name"
+    },
+    {
+      "field_name": "installation_number",
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true
+    },
+    {
+      "field_name": "project_information",
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true
+    },
+    {
+      "field_name": "control_type",
+      "hide_from_form_data": true,
+      "hide_from_detail_page": true
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_1"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_1_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_2"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_2_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_3"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_3_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_4"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_4_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_5"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_5_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_6"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_6_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_7"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_7_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_8"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_8_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_9"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_9_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_10"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_10_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_11"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_11_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_12"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_12_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_13"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_13_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_14"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_14_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_15"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_15_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_16"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_16_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_17"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_17_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_18"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_18_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_19"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "kuyu_19_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "makine_1"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "makine_1_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "makine_2"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "makine_2_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "makine_3"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "makine_3_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "makine_4"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "makine_4_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "makine_5"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "makine_5_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "makine_6"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "makine_6_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "diger_1"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "diger_1_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "diger_2"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "diger_2_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "diger_3"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "diger_3_photo"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "form_date_1"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "form_date_2"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "form_date_3"
+    },
+    {
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true,
+      "field_name": "form_notes"
+    },
+    {
+      "field_name": "sender_identifier",
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true
+    }
+  ]
+}

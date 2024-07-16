@@ -1,0 +1,96 @@
+{
+  "_id": "656dcec7d71b6e002cfa1b15",
+  "title": "AssemblyProjects",
+  "description": "Projeler",
+  "order": 0,
+  "page_type": "table",
+  "page_features": ["no_new_button", "no_remove_button", "cancel_movement_between_sections"],
+  "field_features": [
+    {
+      "field_name": "customer",
+      "order": 0,
+      "read_only": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "project",
+      "order": 1,
+      "read_only": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "unit_worksite_delivery_form",
+      "order": 3,
+      "grid_width": 6
+    },
+    {
+      "field_name": "unit_worksite_delivery_photos",
+      "order": 4,
+      "grid_width": 6,
+      "more_than_one_file": true,
+      "file_type": "img"
+    },
+    {
+      "field_name": "mechanical_assembly_delivery_form",
+      "order": 5,
+      "grid_width": 6
+    },
+    {
+      "field_name": "mechanical_assembly_delivery_photos",
+      "order": 6,
+      "grid_width": 6,
+      "more_than_one_file": true,
+      "file_type": "img"
+    },
+    {
+      "field_name": "damage_notification_form",
+      "order": 7,
+      "grid_width": 6
+    },
+    {
+      "field_name": "damage_notification_photos",
+      "order": 8,
+      "grid_width": 6,
+      "more_than_one_file": true,
+      "file_type": "img"
+    },
+    {
+      "field_name": "external_files",
+      "order": 9,
+      "hide_from_table": true,
+      "grid_width": 6,
+      "more_than_one_file": true
+    },
+    {
+      "field_name": "extra_material",
+      "order": 10,
+      "grid_width": 6,
+      "hide_from_table": true
+    },
+    {
+      "field_name": "fully_added_to_gantt_chart",
+      "order": 11,
+      "read_only": true
+    }
+  ],
+  "internal_field_features": [
+    {
+      "grid_width": 6,
+      "field_name": "name",
+      "order": 1
+    },
+    {
+      "grid_width": 6,
+      "field_name": "count",
+      "order": 2
+    }
+  ],
+  "section_features": {
+    "exist": {
+      "label": "Montaj Planına Eklenmeyen"
+    },
+    "fully_added_to_gantt_chart": {
+      "label": "Montaj Planına Eklenen"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.grid {
+  width: 100%;
+  &:hover {
+    cursor: pointer;
+  }
+  *:focus,
+  *:focus-within,
+  *:focus-visible {
+    outline: none !important;
+  }
+
+  overflow-y: hidden;
+}
+
+.all-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+[data-testid="SeparatorIcon"] {
+  cursor: col-resize;
+  position: relative;
+
+  & path {
+    position: absolute;
+    left: 0;
+  }
+}
+
+[data-field="changeButton"] {
+  padding: 0 !important;
+  margin-left: -10px !important;
+  & svg {
+    cursor: pointer;
+  }
+}
+
+[data-field="id"] {
+  & svg {
+    cursor: pointer;
+  }
+}

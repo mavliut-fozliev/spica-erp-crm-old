@@ -1,0 +1,76 @@
+.input {
+  margin: 0 !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important;
+  border: 1px solid black;
+  height: 2rem;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  padding-left: 8px;
+  &::after {
+    border: none !important;
+  }
+  &::before {
+    border: none !important;
+  }
+
+  & > input {
+    font-family: "Inter";
+    font-size: 0.8rem !important;
+    font-weight: 700;
+    padding: 0;
+  }
+  &-dotted {
+    font-size: 0.8rem !important;
+
+    &::after {
+      border: none !important;
+    }
+    &::before {
+      border-bottom: 2px dotted black !important;
+      margin-bottom: 2px;
+    }
+  }
+  &-free {
+    margin: 0 !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important;
+
+    &::after {
+      border: none !important;
+    }
+    &::before {
+      border: none !important;
+    }
+
+    & > input {
+      font-family: "Inter";
+      font-size: 0.8rem !important;
+      font-weight: 400;
+      padding: 0;
+    }
+  }
+}
+.label {
+  margin-bottom: 2px;
+}
+.label::after {
+  content: "\2055";
+  margin-left: 6px;
+  bottom: 4px;
+  position: relative;
+}
+.length-div {
+  font-family: "Inter";
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin: 0 !important;
+  width: fit-content;
+  height: 0 !important;
+  visibility: hidden;
+
+  &-free {
+    @extend .length-div;
+  }
+}
+.input-container {
+  margin-left: 5px;
+}

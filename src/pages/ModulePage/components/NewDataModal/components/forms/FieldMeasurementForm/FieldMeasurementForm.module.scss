@@ -1,0 +1,89 @@
+.arrow {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 1px;
+    height: 10px;
+    rotate: 30deg;
+    bottom: 0;
+    left: 2px;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 1px;
+    height: 10px;
+    rotate: -30deg;
+    bottom: 0;
+    right: 2px;
+  }
+}
+
+.step {
+  position: relative;
+  width: 30px;
+  height: 12px;
+  margin-left: 4px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    top: 11px;
+    left: 0;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 11px;
+    left: 20px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+  }
+}
+
+.floor {
+  position: relative;
+  height: 61px;
+  width: 126px;
+  border-left: 1px solid black;
+  border-top: 1px dashed black;
+  border-right: 2px solid black;
+  font-size: 0.7rem;
+  font-weight: 600;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    rotate: 45deg;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    bottom: 0;
+    left: -6px;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    rotate: 45deg;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    top: 24px;
+    left: -6px;
+  }
+}

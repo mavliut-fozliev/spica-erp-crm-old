@@ -1,0 +1,44 @@
+.group {
+  height: 30px !important;
+
+  &-disabled {
+    @extend .group;
+    background-color: rgb(225, 225, 225);
+  }
+}
+
+.selected {
+  color: #fff !important;
+
+  &-primary {
+    @extend .selected;
+    background-color: rgb(132, 90, 223) !important;
+  }
+
+  &-blue {
+    @extend .selected;
+    background-color: rgb(35, 183, 229) !important;
+  }
+}
+
+.hidden {
+  color: gray !important;
+  transition: 0.2s;
+  &:hover {
+    color: #fff !important;
+  }
+
+  &-primary {
+    @extend .hidden;
+    &:hover {
+      background-color: rgb(132, 90, 223) !important;
+    }
+  }
+
+  &-blue {
+    @extend .hidden;
+    &:hover {
+      background-color: rgb(35, 183, 229) !important;
+    }
+  }
+}

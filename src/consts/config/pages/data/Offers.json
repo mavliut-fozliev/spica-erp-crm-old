@@ -1,0 +1,220 @@
+{
+  "_id": "651d6a2882063a002c6f9ba3",
+  "title": "Offers",
+  "description": "Teklifler",
+  "order": 3,
+  "page_type": "table",
+  "field_features": [
+    {
+      "field_name": "customer",
+      "order": 0,
+      "disable_editing": true
+    },
+    {
+      "field_name": "project",
+      "order": 1,
+      "disable_editing": true,
+      "required": true
+    },
+    {
+      "field_name": "related_person",
+      "order": 2,
+      "read_only": true
+    },
+    {
+      "field_name": "related_person_phone",
+      "order": 3,
+      "read_only": true
+    },
+    {
+      "field_name": "related_person_role",
+      "order": 4,
+      "read_only": true
+    },
+    {
+      "field_name": "reference_number",
+      "order": 5,
+      "hide_from_table": true,
+      "read_only": true
+    },
+    {
+      "field_name": "previous_offer",
+      "order": 6,
+      "hide_from_table": true,
+      "hide_from_form_data": true
+    },
+    {
+      "field_name": "notes",
+      "order": 7,
+      "hide_from_table": true
+    },
+    {
+      "field_name": "shape_screenshot",
+      "order": 8,
+      "hide_from_table": true,
+      "required": true
+    },
+    {
+      "field_name": "shape_property_file",
+      "order": 9,
+      "hide_from_table": true,
+      "required": true
+    },
+    {
+      "field_name": "standby_time",
+      "order": 10,
+      "hide_from_form_data": true,
+      "read_only": true
+    },
+    {
+      "order": 11,
+      "field_name": "offer_validity_period",
+      "grid_width": 3,
+      "date_only": true,
+      "required": true
+    },
+    {
+      "field_name": "delivery_time",
+      "order": 12,
+      "grid_width": 1,
+      "required": true
+    },
+    {
+      "field_name": "birim",
+      "order": 13,
+      "grid_width": 1,
+      "hide_from_table": true,
+      "hide_from_detail_page": true,
+      "required": true
+    },
+    {
+      "field_name": "kdv",
+      "order": 14,
+      "grid_width": 1,
+      "hide_from_table": true,
+      "hide_from_detail_page": true,
+      "required": true
+    },
+    {
+      "field_name": "products",
+      "order": 15,
+      "hide_from_table": true,
+      "hide_from_detail_page": true,
+      "required": true
+    },
+    {
+      "field_name": "proposed_solution",
+      "order": 16,
+      "hide_from_table": true,
+      "hide_from_form_data": true,
+      "more_than_one_file": true
+    },
+    {
+      "field_name": "created_date",
+      "order": 17,
+      "hide_from_form_data": true
+    },
+    {
+      "field_name": "confirmed_revise_index",
+      "hide_from_table": true,
+      "hide_from_detail_page": true,
+      "hide_from_form_data": true
+    },
+    {
+      "field_name": "draft_drawing_1",
+      "hide_from_form_data": true,
+      "hide_from_detail_page": true,
+      "hide_from_table": true
+    },
+    {
+      "field_name": "draft_drawing_2",
+      "hide_from_form_data": true,
+      "hide_from_detail_page": true,
+      "hide_from_table": true
+    },
+    {
+      "field_name": "draft_drawing_3",
+      "hide_from_form_data": true,
+      "hide_from_detail_page": true,
+      "hide_from_table": true
+    },
+    {
+      "field_name": "draft_drawing_4",
+      "hide_from_form_data": true,
+      "hide_from_detail_page": true,
+      "hide_from_table": true
+    },
+    {
+      "field_name": "draft_drawing_5",
+      "hide_from_form_data": true,
+      "hide_from_detail_page": true,
+      "hide_from_table": true
+    },
+    {
+      "field_name": "draft_drawing_6",
+      "hide_from_form_data": true,
+      "hide_from_detail_page": true,
+      "hide_from_table": true
+    },
+    {
+      "field_name": "draft_drawing_7",
+      "hide_from_form_data": true,
+      "hide_from_detail_page": true,
+      "hide_from_table": true
+    },
+    {
+      "field_name": "draft_drawing_8",
+      "hide_from_form_data": true,
+      "hide_from_detail_page": true,
+      "hide_from_table": true
+    },
+    {
+      "field_name": "draft_drawing_9",
+      "hide_from_form_data": true,
+      "hide_from_detail_page": true,
+      "hide_from_table": true
+    },
+    {
+      "field_name": "draft_drawing_10",
+      "hide_from_form_data": true,
+      "hide_from_detail_page": true,
+      "hide_from_table": true
+    }
+  ],
+  "internal_field_features": [
+    {
+      "field_name": "product",
+      "order": 0,
+      "grid_width": 10
+    },
+    {
+      "field_name": "count",
+      "order": 1,
+      "grid_width": 2,
+      "read_only": true
+    },
+    {
+      "field_name": "docx_data",
+      "order": 2
+    }
+  ],
+  "page_features": ["cancel_movement_between_sections_during_creation"],
+  "section_features": {
+    "exist": {
+      "label": "Takipteki"
+    },
+    "confirmed": {
+      "label": "Onaylanan"
+    },
+    "unapproved": {
+      "label": "Onaylanmayan"
+    },
+    "pended": {
+      "label": "Beklemeye Alınan"
+    },
+    "revised": {
+      "hide_from_page": true,
+      "hide_from_form_data": true
+    }
+  }
+}

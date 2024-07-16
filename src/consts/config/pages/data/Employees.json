@@ -1,0 +1,295 @@
+{
+  "_id": "655cc987d71b6e002cf8b478",
+  "title": "Employees",
+  "description": "Personeller",
+  "order": 18,
+  "page_type": "table",
+  "field_features": [
+    {
+      "field_name": "profile_photo",
+      "order": 0,
+      "grid_width": 12,
+      "type": "visible",
+      "content_size": 120,
+      "hide_from_table": true
+    },
+    {
+      "field_name": "name",
+      "order": 1,
+      "grid_width": 4,
+      "required": true
+    },
+    {
+      "field_name": "tc_identity",
+      "order": 2,
+      "grid_width": 4,
+      "required": true
+    },
+    {
+      "grid_width": 4,
+      "order": 3,
+      "field_name": "passport_number"
+    },
+    {
+      "field_name": "nationality",
+      "grid_width": 4,
+      "order": 4,
+      "required": true
+    },
+    {
+      "field_name": "job",
+      "order": 5,
+      "grid_width": 4,
+      "required": true
+    },
+    {
+      "field_name": "department",
+      "order": 6,
+      "read_only": true,
+      "grid_width": 4,
+      "required": true
+    },
+    {
+      "field_name": "other_nationality",
+      "order": 7,
+      "grid_width": 4
+    },
+    {
+      "field_name": "birth_date",
+      "order": 8,
+      "date_only": true,
+      "grid_width": 4,
+      "required": true
+    },
+    {
+      "field_name": "start_date",
+      "order": 9,
+      "date_only": true,
+      "grid_width": 4,
+      "required": true
+    },
+    {
+      "field_name": "diploma",
+      "order": 10,
+      "hide_from_table": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "place_of_residence",
+      "order": 11,
+      "hide_from_table": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "civil_registry",
+      "order": 12,
+      "hide_from_table": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "passport",
+      "order": 13,
+      "hide_from_table": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "criminal_record",
+      "order": 14,
+      "hide_from_table": true,
+      "grid_width": 6,
+      "required": true
+    },
+    {
+      "field_name": "employment_contract",
+      "order": 15,
+      "hide_from_table": true,
+      "grid_width": 6,
+      "required": true
+    },
+    {
+      "field_name": "provided_certificates",
+      "order": 16,
+      "hide_from_table": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "personnel_sertifications",
+      "order": 17,
+      "hide_from_table": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "debited_equipments",
+      "order": 18,
+      "hide_from_table": true,
+      "grid_width": 12
+    },
+    {
+      "field_name": "received_trainings",
+      "order": 19,
+      "prevent_adding_and_removing_elements_to_an_array": true
+    },
+    {
+      "field_name": "permit_required",
+      "order": 20,
+      "grid_width": 2
+    },
+    {
+      "field_name": "permit_start_date",
+      "order": 21,
+      "date_only": true,
+      "grid_width": 2
+    },
+    {
+      "field_name": "permit_end_date",
+      "order": 22,
+      "date_only": true,
+      "grid_width": 2
+    },
+    {
+      "field_name": "work_permit_document",
+      "order": 26,
+      "hide_from_table": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "remaining_leave",
+      "grid_width": 3,
+      "order": 24,
+      "read_only": true
+    },
+    {
+      "field_name": "fmi_remaining_leave",
+      "grid_width": 3,
+      "order": 25,
+      "read_only": true
+    },
+    {
+      "field_name": "dismissal_date",
+      "order": 27,
+      "grid_width": 6
+    },
+    {
+      "field_name": "dismissal_certificate",
+      "order": 28,
+      "hide_from_table": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "total_leave",
+      "hide": true
+    },
+    { "field_name": "equipments", "hide": true },
+    { "field_name": "cautions_and_punishments", "hide": true }
+  ],
+  "internal_field_features": [
+    {
+      "field_name": "trainings",
+      "grid_width": 8,
+      "order": 0,
+      "parent": "personnel_sertifications"
+    },
+    {
+      "field_name": "end_date",
+      "grid_width": 4,
+      "order": 1,
+      "parent": "personnel_sertifications",
+      "date_only": true
+    },
+    {
+      "field_name": "files",
+      "grid_width": 12,
+      "order": 2,
+      "parent": "personnel_sertifications"
+    },
+    {
+      "field_name": "training",
+      "grid_width": 8,
+      "order": 0,
+      "parent": "provided_certificates"
+    },
+    {
+      "date_only": true,
+      "field_name": "end_date",
+      "grid_width": 4,
+      "order": 1,
+      "parent": "provided_certificates"
+    },
+    {
+      "field_name": "file",
+      "grid_width": 12,
+      "order": 2,
+      "parent": "provided_certificates"
+    },
+    {
+      "field_name": "type",
+      "grid_width": 3,
+      "order": 0,
+      "parent": "debited_equipments"
+    },
+    {
+      "field_name": "name",
+      "grid_width": 4,
+      "order": 1,
+      "parent": "debited_equipments"
+    },
+    {
+      "field_name": "count",
+      "grid_width": 1,
+      "order": 2,
+      "parent": "debited_equipments"
+    },
+    {
+      "field_name": "date_of_issue",
+      "grid_width": 2,
+      "order": 3,
+      "parent": "debited_equipments",
+      "date_only": true
+    },
+    {
+      "field_name": "expiration_date",
+      "grid_width": 2,
+      "order": 4,
+      "parent": "debited_equipments",
+      "date_only": true
+    },
+    {
+      "field_name": "training_name",
+      "grid_width": 12,
+      "order": 0,
+      "parent": "received_trainings",
+      "read_only": true
+    },
+    {
+      "field_name": "start_date",
+      "grid_width": 6,
+      "order": 1,
+      "parent": "received_trainings",
+      "read_only": true,
+      "date_only": true
+    },
+    {
+      "field_name": "end_date",
+      "grid_width": 6,
+      "order": 2,
+      "parent": "received_trainings",
+      "read_only": true,
+      "date_only": true
+    },
+    {
+      "field_name": "certificate",
+      "grid_width": 12,
+      "order": 3,
+      "parent": "received_trainings",
+      "read_only": true
+    }
+  ],
+  "section_features": {
+    "exist": {
+      "label": "Aktif"
+    },
+    "passive": {
+      "label": "Pasif"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.custom-view {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.sections {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.content {
+  height: 100%;
+  padding-right: 4px;
+
+  @media (max-width: 850px) {
+    overflow-y: hidden;
+  }
+}

@@ -1,0 +1,64 @@
+.location {
+  &-box {
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+
+  &-native {
+    width: 100%;
+  }
+
+  &-link {
+    font-size: 0.9rem;
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+}
+
+.data {
+  &-line {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-column-gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  &-box {
+    grid-column: span 2;
+  }
+
+  &-title {
+    font-size: 0.8rem;
+    color: rgb(50, 50, 50);
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  &-text {
+    font-size: 0.87rem;
+    color: rgb(50, 50, 50);
+    padding: 6px;
+    padding-left: 10px;
+    background: rgb(240, 240, 240);
+    border-radius: 4px;
+  }
+
+  &-space {
+    grid-column: span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.table-title {
+  @extend .data-title;
+  width: 180px;
+  margin-top: 4px;
+
+  &-long {
+    @extend .table-title;
+    width: 280px;
+  }
+}

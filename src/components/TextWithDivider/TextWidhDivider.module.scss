@@ -1,0 +1,16 @@
+.text-with-divider {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  padding: 10px;
+  font-size: 0.875rem;
+  /* Add any other styles you need for the text */
+}
+
+.divider {
+  flex: 1;
+  border-top: 1px solid #00000060; /* Add your preferred color for the divider */
+  margin: 0 10px; /* Adjust the margin based on your design */
+}

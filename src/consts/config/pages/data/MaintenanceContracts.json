@@ -1,0 +1,74 @@
+{
+  "_id": "6645e0333931f4002bf7fa30",
+  "title": "MaintenanceContracts",
+  "description": "Bakım Sözleşmeleri",
+  "order": 1,
+  "page_type": "table",
+  "field_features": [
+    {
+      "field_name": "unit",
+      "order": 2,
+      "disable_editing": true,
+      "hide_from_table": true
+    },
+    {
+      "field_name": "end_date",
+      "order": 3,
+      "date_only": true,
+      "grid_width": 12,
+      "required": true
+    },
+    {
+      "field_name": "service_type",
+      "order": 7,
+      "grid_width": 12,
+      "required": true
+    },
+    {
+      "field_name": "signed_maintenance",
+      "order": 8,
+      "grid_width": 12
+    },
+    {
+      "field_name": "maintenance_contract",
+      "order": 9,
+      "grid_width": 12,
+      "hide_from_table": true,
+      "hide_from_form_data": true,
+      "more_than_one_file": true
+    },
+    { "field_name": "building_name", "hide": true },
+    { "field_name": "client_name", "hide": true },
+    { "field_name": "start_date", "hide": true },
+    { "field_name": "maintenance_package", "hide": true },
+    { "field_name": "employee", "hide": true },
+    { "field_name": "contract_date", "hide": true },
+    { "field_name": "customer_mail", "hide": true },
+    { "field_name": "customer_phone_number", "hide": true },
+    { "field_name": "customer_mobile_number", "hide": true },
+    { "field_name": "location", "hide": true },
+    { "field_name": "number_of_stops", "hide": true },
+    { "field_name": "standard_price", "hide": true },
+    { "field_name": "elite_price", "hide": true },
+    { "field_name": "premium_price", "hide": true },
+    { "field_name": "reference_number", "hide": true }
+  ],
+  "section_features": {
+    "exist": {
+      "hide_from_form_data": true,
+      "hide_from_page": true
+    },
+    "approved": {
+      "label": "İmza Bekleyen"
+    },
+    "signed": {
+      "label": "İmzalanan",
+      "joint_sections": ["passive"]
+    },
+    "passive": {
+      "hide_from_page": true,
+      "hide_from_form_data": true
+    }
+  },
+  "default_section": "approved"
+}

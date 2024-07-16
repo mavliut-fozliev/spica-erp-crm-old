@@ -1,0 +1,22 @@
+{
+  "module_name": "module name",
+  "pages": {
+    "description": "an array of pages associated with this module",
+    "type": "string array"
+  },
+  "bound_modules": {
+    "description": "an array of modules related to this module",
+    "type": "string array"
+  },
+  "submodules": {
+    "type": "object array",
+    "description": "an array of modules associated with this module",
+    "properties": {
+      "name": "submodule name",
+      "pages": {
+        "type": "string array",
+        "description": "module names"
+      }
+    }
+  }
+}

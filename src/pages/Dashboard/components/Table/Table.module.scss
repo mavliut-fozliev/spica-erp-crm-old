@@ -1,0 +1,13 @@
+.grid {
+  width: 100%;
+  &:hover {
+    cursor: pointer;
+  }
+  *:focus,
+  *:focus-within,
+  *:focus-visible {
+    outline: none !important;
+  }
+
+  overflow-y: hidden;
+}

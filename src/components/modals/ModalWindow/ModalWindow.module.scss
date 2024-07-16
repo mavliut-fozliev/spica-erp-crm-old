@@ -1,0 +1,93 @@
+.modal {
+  margin: 40px auto;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.box {
+  user-select: none;
+  position: relative;
+}
+
+.holder {
+  min-height: 50px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.form {
+  background-color: #fff;
+  border: solid 3px gray;
+  border-radius: 8px;
+  padding: 20px 40px 20px 40px;
+  display: flex;
+  flex-direction: column;
+
+  max-height: 85vh;
+
+  &::-webkit-scrollbar {
+    width: 9px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+}
+
+.title {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  font-size: 0.875rem;
+}
+
+.divider {
+  background: rgb(209, 209, 209);
+  margin-bottom: 20px !important;
+  width: 100% !important;
+}
+
+.children-box {
+  overflow-y: auto;
+  padding-right: 20px;
+  padding-bottom: 5px;
+
+  &-grid {
+    @extend .children-box;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-column-gap: 10px;
+
+    &-small {
+      @extend .children-box-grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+  }
+}
+
+.columnsContainer {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+
+  &:not(:last-child) {
+    margin-right: 10px; /* Adjust the margin between columns as needed */
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}

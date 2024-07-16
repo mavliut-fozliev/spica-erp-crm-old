@@ -1,0 +1,89 @@
+.box {
+  margin-bottom: 15px;
+  * {
+    font-family: "Inter", sans-serif !important;
+  }
+}
+
+.label {
+  font-size: 0.8rem;
+  font-weight: 600 !important;
+  margin-bottom: 10px;
+  color: rgb(50, 50, 50);
+}
+
+.input-container {
+  display: flex !important;
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+.inner-box {
+  display: flex;
+  align-items: center;
+  // margin-top: 6px !important;
+  width: 100% !important;
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+.form-control {
+  background-color: transparent;
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+.select {
+  height: 28px;
+  font-size: 0.8rem !important;
+  outline: none;
+  color: rgb(50, 50, 50);
+
+  &-error {
+    @extend .select;
+    border: 1px solid red !important;
+  }
+
+  & > div {
+    & > div {
+      height: 30px;
+
+      &:focus-visible {
+        outline: none !important;
+      }
+
+      & > input {
+        margin-top: -11px;
+        margin-left: -2px !important;
+      }
+
+      & > div {
+        margin-top: -5px;
+      }
+    }
+  }
+
+  & input {
+    font-size: 0.8rem !important;
+  }
+
+  * {
+    font-size: 1.4rem !important;
+  }
+}
+
+.item {
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 2px;
+  padding-left: 12px;
+  color: rgb(50, 50, 50);
+
+  &:hover {
+    background-color: rgb(132, 90, 223);
+    color: #fff;
+  }
+}

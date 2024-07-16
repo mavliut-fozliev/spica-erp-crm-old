@@ -1,0 +1,78 @@
+.menu-icon {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  position: relative;
+}
+
+.input-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: absolute;
+  bottom: 10px;
+  width: 125px;
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(132, 90, 223);
+  border-radius: 4px;
+  padding-right: 11px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  transition: 0.2s linear;
+
+  left: -60px;
+
+  &-left {
+    @extend .input-box;
+    left: -112px;
+  }
+
+  &-right {
+    @extend .input-box;
+    left: -10px;
+  }
+}
+
+.triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgb(132, 90, 223);
+  left: 0;
+  bottom: 0;
+
+  transition: 0.2s linear;
+}
+
+.input-button {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(132, 90, 223);
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 3px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: rgba(132, 90, 223, 0.9);
+  }
+}
+
+.input {
+  display: none !important;
+}
+
+.camera-icon {
+  color: #fff;
+  width: 20px !important;
+  height: 20px !important;
+}

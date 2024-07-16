@@ -1,0 +1,50 @@
+.input {
+  &-straight {
+    margin: 0 !important;
+
+    &::before {
+      border-bottom: 1px solid black !important;
+    }
+
+    & > input {
+      font-family: "Inter";
+      font-size: 0.8rem !important;
+      font-weight: 400;
+      padding: 2px 0;
+    }
+  }
+
+  &-doted {
+    @extend .input-straight;
+    font-size: 0.8rem !important;
+
+    &::after {
+      border: none !important;
+    }
+    &::before {
+      border-bottom: 2px dotted black !important;
+    }
+  }
+
+  &-frame {
+    @extend .input-straight;
+
+    &::after {
+      border: none !important;
+    }
+    &::before {
+      border: none !important;
+    }
+  }
+}
+
+.length-div {
+  font-family: "Inter";
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin: 0 !important;
+  // padding: 2px 0;
+  width: fit-content;
+  height: 0 !important;
+  visibility: hidden;
+}

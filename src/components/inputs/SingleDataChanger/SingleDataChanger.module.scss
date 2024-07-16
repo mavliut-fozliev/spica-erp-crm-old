@@ -1,0 +1,20 @@
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.input {
+  width: 100px;
+  height: 26px;
+  margin: 0;
+  padding: 0 4px;
+  &:focus-visible {
+    outline: none;
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "651d84bc82063a002c6f9f9a",
+  "title": "Products",
+  "description": "Ürünler",
+  "order": 1,
+  "page_type": "table",
+  "field_features": [
+    {
+      "field_name": "name",
+      "order": 0,
+      "hide_from_table": true,
+      "hide_from_form_data": true
+    },
+    {
+      "field_name": "brand",
+      "order": 1,
+      "required": true
+    },
+    {
+      "field_name": "type",
+      "order": 2,
+      "required": true
+    },
+    {
+      "field_name": "model",
+      "order": 3,
+      "required": true
+    },
+    {
+      "field_name": "abbreviation",
+      "order": 4,
+      "required": true
+    }
+  ]
+}

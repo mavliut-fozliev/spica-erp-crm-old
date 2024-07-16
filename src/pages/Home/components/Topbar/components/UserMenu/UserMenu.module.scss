@@ -1,0 +1,46 @@
+.modal {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 42px;
+  margin-right: 10px;
+}
+
+.transparentBackdrop {
+  background-color: rgba(0, 0, 0, 0.1) !important; // Прозрачный фон
+}
+
+.box {
+  width: 160px;
+  max-height: 450px !important;
+  height: fit-content;
+  background-color: #fff;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 6px;
+
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+.menu-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.85rem;
+  height: 30px;
+  user-select: none;
+  cursor: pointer;
+  padding-left: 14px;
+  color: rgba(0, 0, 0, 0.7);
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.05);
+    color: rgb(132, 90, 223);
+  }
+
+  &-text {
+    margin-left: 6px;
+    padding-bottom: 2px;
+  }
+}

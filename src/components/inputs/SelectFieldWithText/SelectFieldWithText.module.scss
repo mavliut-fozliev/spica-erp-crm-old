@@ -1,0 +1,58 @@
+.box {
+  margin-bottom: 10px !important;
+  width: 100% !important;
+
+  * {
+    font-family: "Inter", sans-serif !important;
+  }
+}
+
+.label {
+  font-size: 0.8rem;
+  font-weight: 600 !important;
+  margin-bottom: 10px !important;
+}
+
+.form-control {
+  margin-top: 5px;
+}
+
+.select {
+  height: 30px;
+  font-size: 0.8rem !important;
+}
+
+.item {
+  font-size: 0.8rem !important;
+  max-width: 700px;
+  &:hover {
+    background-color: rgb(132, 90, 223) !important;
+    color: #fff !important;
+  }
+}
+
+.custom-item {
+  display: none !important;
+}
+
+.custom-button {
+  margin-top: 5px;
+}
+
+.text-input-box {
+  display: flex;
+}
+
+.text-input {
+  height: 30px;
+  width: 76%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid rgb(225, 225, 225);
+  padding: 0px 12px;
+  font-size: 0.8rem !important;
+
+  &:focus-visible {
+    outline: none;
+  }
+}

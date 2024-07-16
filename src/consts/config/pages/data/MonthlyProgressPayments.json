@@ -1,0 +1,560 @@
+{
+  "_id": "657ae033d71b6e002cfbe32f",
+  "title": "MonthlyProgressPayments",
+  "description": "Aylık Hakediş",
+  "order": 11,
+  "page_type": "custom",
+  "field_features": [
+    {
+      "field_name": "year",
+      "order": 0,
+      "grid_width": 4,
+      "read_only": true
+    },
+    {
+      "field_name": "month",
+      "order": 1,
+      "grid_width": 4,
+      "read_only": true
+    },
+    {
+      "field_name": "team_name",
+      "order": 2,
+      "grid_width": 4,
+      "read_only": true
+    },
+    {
+      "field_name": "payments",
+      "order": 3,
+      "hide_from_table": true,
+      "disable_editing": true,
+      "grid_width": 12,
+      "required": true
+    },
+    {
+      "field_name": "additional_payments",
+      "order": 4,
+      "grid_width": 6
+    },
+
+    {
+      "field_name": "total_payments",
+      "order": 5,
+      "grid_width": 6
+    },
+    {
+      "field_name": "advance_payment_and_other",
+      "order": 6,
+      "grid_width": 6
+    },
+    {
+      "field_name": "remaining_progress_payment",
+      "order": 7,
+      "grid_width": 6
+    },
+
+    {
+      "field_name": "dept_tl",
+      "order": 8,
+      "grid_width": 6
+    },
+
+    {
+      "field_name": "dept_euro",
+      "order": 9,
+      "grid_width": 6
+    },
+    {
+      "field_name": "dept_dollar",
+      "order": 10,
+      "grid_width": 6
+    },
+    {
+      "field_name": "dept_sterling",
+      "order": 11,
+      "grid_width": 6
+    },
+
+    {
+      "field_name": "salary",
+      "order": 14,
+      "grid_width": 12,
+      "max_length": 2
+    }
+  ],
+  "internal_field_features": [
+    {
+      "field_name": "project",
+      "order": 1,
+      "disable_editing": true,
+      "grid_width": 6
+    },
+    {
+      "field_name": "place",
+      "read_only": true,
+      "grid_width": 4,
+      "order": 2
+    },
+    {
+      "field_name": "unit",
+      "disable_editing": true,
+      "grid_width": 6,
+      "order": 3
+    },
+    {
+      "field_name": "model",
+      "read_only": true,
+      "grid_width": 3,
+      "order": 4
+    },
+    {
+      "field_name": "capacity",
+      "read_only": true,
+      "grid_width": 1,
+      "order": 5
+    },
+    {
+      "field_name": "number_of_stops",
+      "read_only": true,
+      "grid_width": 1,
+      "order": 6
+    },
+    {
+      "field_name": "high_floor",
+      "read_only": true,
+      "grid_width": 1,
+      "order": 7
+    },
+    {
+      "field_name": "work_status",
+      "order": 8,
+      "disable_editing": true,
+      "grid_width": 4
+    },
+    {
+      "field_name": "work_percentage",
+      "disable_editing": true,
+      "grid_width": 2,
+      "order": 9
+    },
+    {
+      "field_name": "payment_no",
+      "read_only": true,
+      "grid_width": 1,
+      "order": 10
+    },
+    {
+      "read_only": true,
+      "field_name": "price_per_floor",
+      "order": 11,
+      "grid_width": 2
+    },
+    {
+      "field_name": "total_floor_cost",
+      "order": 12,
+      "grid_width": 2,
+      "read_only": true
+    },
+    {
+      "field_name": "fuel_price",
+      "grid_width": 2,
+      "order": 13,
+      "read_only": true
+    },
+    {
+      "field_name": "total_fuel_cost",
+      "order": 14,
+      "grid_width": 2,
+      "read_only": true
+    },
+    {
+      "field_name": "date",
+      "date_only": true,
+      "order": 15,
+      "disable_editing": true,
+      "grid_width": 2
+    },
+    {
+      "field_name": "payed_floor_cost",
+      "order": 16,
+      "grid_width": 2,
+      "read_only": true
+    },
+    {
+      "field_name": "fuel_date",
+      "date_only": true,
+      "order": 17,
+      "disable_editing": true,
+      "grid_width": 2
+    },
+    {
+      "field_name": "payed_fuel_cost",
+      "grid_width": 2,
+      "order": 18,
+      "read_only": true
+    },
+    {
+      "field_name": "remaining_floor_cost",
+      "grid_width": 2,
+      "order": 19,
+      "read_only": true
+    },
+    {
+      "field_name": "remaining_percentage",
+      "grid_width": 2,
+      "order": 20,
+      "read_only": true
+    },
+    {
+      "field_name": "remaining_fuel_cost",
+      "grid_width": 2,
+      "order": 21,
+      "read_only": true
+    },
+    {
+      "field_name": "price_difference",
+      "order": 22,
+      "grid_width": 2,
+      "read_only": true
+    },
+    {
+      "field_name": "fuel_price_difference",
+      "order": 23,
+      "grid_width": 2,
+      "read_only": true
+    },
+
+    {
+      "field_name": "total_payed_floor",
+      "order": 0,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "total_payed_fuel",
+      "order": 1,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "total_additional_payments",
+      "order": 2,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "progress_payment",
+      "order": 3,
+      "grid_width": 12,
+      "read_only": true,
+      "hide_label": true
+    },
+
+    {
+      "field_name": "reason",
+      "order": 0,
+      "grid_width": 9,
+      "parent": "additional_payments"
+    },
+    {
+      "field_name": "payment_amount",
+      "order": 1,
+      "grid_width": 3,
+      "parent": "additional_payments"
+    },
+
+    {
+      "field_name": "reason",
+      "order": 0,
+      "grid_width": 12,
+      "parent": "advance_payment_and_other"
+    },
+    {
+      "field_name": "date",
+      "order": 1,
+      "grid_width": 4,
+      "parent": "advance_payment_and_other",
+      "date_only": true
+    },
+    {
+      "field_name": "payment_amount",
+      "order": 2,
+      "grid_width": 5,
+      "parent": "advance_payment_and_other"
+    },
+    {
+      "field_name": "currency",
+      "order": 3,
+      "grid_width": 3,
+      "parent": "advance_payment_and_other"
+    },
+
+    {
+      "field_name": "previous_month_dept_tl",
+      "order": 0,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "total_advance_payment_and_other_tl",
+      "order": 1,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "total_debt_tl",
+      "order": 2,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "cut_this_month_tl",
+      "order": 3,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "next_month_dept_tl",
+      "order": 4,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+
+    {
+      "field_name": "progress_payment_copy",
+      "order": 0,
+      "grid_width": 12,
+      "read_only": true,
+      "hide_label": true
+    },
+    {
+      "field_name": "total_cut",
+      "order": 1,
+      "grid_width": 12,
+      "read_only": true,
+      "hide_label": true
+    },
+    {
+      "field_name": "payed_progress_payment",
+      "order": 2,
+      "grid_width": 12,
+      "read_only": true,
+      "hide_label": true
+    },
+
+    {
+      "field_name": "previous_month_dept_euro",
+      "order": 0,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "total_advance_payment_and_other_euro",
+      "order": 1,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "total_debt_euro",
+      "order": 2,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "cut_this_month_euro",
+      "order": 3,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "next_month_dept_euro",
+      "order": 4,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "euro_exchange_rate",
+      "order": 5,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "euro_equivalent_lira",
+      "order": 6,
+      "grid_width": 12,
+      "read_only": true,
+      "hide_label": true
+    },
+
+    {
+      "field_name": "previous_month_dept_dollar",
+      "order": 0,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "total_advance_payment_and_other_dollar",
+      "order": 1,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "total_debt_dollar",
+      "order": 2,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "cut_this_month_dollar",
+      "order": 3,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "next_month_dept_dollar",
+      "order": 4,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "dollar_exchange_rate",
+      "order": 5,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "dollar_equivalent_lira",
+      "order": 6,
+      "grid_width": 12,
+      "read_only": true,
+      "hide_label": true
+    },
+
+    {
+      "field_name": "previous_month_dept_sterling",
+      "order": 0,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "total_advance_payment_and_other_sterling",
+      "order": 1,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "total_debt_sterling",
+      "order": 2,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "cut_this_month_sterling",
+      "order": 3,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "next_month_dept_sterling",
+      "order": 4,
+      "read_only": true,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "sterling_exchange_rate",
+      "order": 5,
+      "grid_width": 12,
+      "hide_label": true
+    },
+    {
+      "field_name": "sterling_equivalent_lira",
+      "order": 6,
+      "grid_width": 12,
+      "read_only": true,
+      "hide_label": true
+    },
+
+    {
+      "field_name": "employee",
+      "order": 0,
+      "grid_width": 3
+    },
+    {
+      "field_name": "salary_amount",
+      "order": 1,
+      "grid_width": 3,
+      "read_only": true
+    },
+    {
+      "field_name": "minimum_wage",
+      "order": 2,
+      "grid_width": 3,
+      "read_only": true
+    },
+    {
+      "field_name": "extra_salary",
+      "order": 3,
+      "grid_width": 3,
+      "read_only": true
+    },
+    {
+      "field_name": "minimum_wage_date",
+      "order": 4,
+      "grid_width": 3
+    },
+    {
+      "field_name": "extra_salary_date",
+      "order": 5,
+      "grid_width": 3
+    },
+    {
+      "field_name": "minimum_wage_receipt",
+      "order": 6,
+      "grid_width": 3
+    },
+    {
+      "field_name": "extra_salary_receipt",
+      "order": 7,
+      "grid_width": 3
+    },
+    {
+      "field_name": "minimum_wage_receipt_file",
+      "order": 8,
+      "grid_width": 6
+    },
+    {
+      "field_name": "extra_salary_receipt_file",
+      "order": 9,
+      "grid_width": 6
+    }
+  ],
+  "section_features": {
+    "exist": {
+      "label": "Ödenmemiş",
+      "disable": true
+    },
+    "paid": {
+      "label": "Ödenmiş",
+      "disable": true
+    }
+  }
+}

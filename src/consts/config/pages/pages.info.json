@@ -1,0 +1,226 @@
+{
+  "title": "page title",
+  "description": "page label",
+  "order": "page order  (number type)",
+  "form_data_type": "form data can be in the following types: default, custom",
+  "page_type": "pages can be in the following types: table, ganttChart, custom",
+  "field_features": {
+    "description": "Field features and view options",
+    "properties": {
+      "width": {
+        "type": "number",
+        "description": "width in pixels",
+        "default": 200
+      },
+      "order": {
+        "type": "number",
+        "description": "order of field"
+      },
+      "field_name": {
+        "description": "name of field"
+      },
+      "prevent_adding_and_removing_elements_to_an_array": {
+        "type": "boolean",
+        "description": "set to true for prevent adding and removing elements to an array",
+        "default": false
+      },
+      "hide": {
+        "type": "boolean",
+        "description": "set to true to hide a field",
+        "default": false
+      },
+      "hide_from_table": {
+        "type": "boolean",
+        "description": "set to true to hide a column from the table",
+        "default": false
+      },
+      "hide_from_form_data": {
+        "type": "boolean",
+        "description": "set to true to hide a field from the formData",
+        "default": false
+      },
+      "read_only": {
+        "type": "boolean",
+        "description": "set to true to set the property to read-only",
+        "default": false
+      },
+      "date_only": {
+        "type": "boolean",
+        "description": "set to true to allow date only selection",
+        "default": false
+      },
+      "time_only": {
+        "type": "boolean",
+        "description": "set to true to allow time only selection",
+        "default": false
+      },
+      "slider": {
+        "type": "boolean",
+        "description": "if field type is string turn true to show slider instead of input box. Slider can set values in the range from 0 to 100",
+        "default": false
+      },
+      "hide_from_detail_page": {
+        "type": "boolean",
+        "description": "set to true to hide a column from the detailPage",
+        "default": false
+      },
+      "disable_editing": {
+        "type": "boolean",
+        "description": "set to true to disable editing this field after creation (if field type is array then this disables remove button)",
+        "default": false
+      },
+      "grid_width": {
+        "type": "number",
+        "description": "width in fr for formData (max line width is 12)",
+        "default": 6
+      },
+      "required": {
+        "type": "boolean",
+        "description": "made field required",
+        "default": false
+      },
+      "type": {
+        "type": "string",
+        "description": "set file-input type (mini | normal | visible)",
+        "default": "normal"
+      },
+      "file_type": {
+        "type": "string",
+        "description": "set file type (common | img)",
+        "default": "common"
+      },
+      "more_than_one_file": {
+        "type": "boolean",
+        "description": "set to true to allow more than one file",
+        "default": false
+      },
+      "hide_label": {
+        "type": "boolean",
+        "description": "set to true to hide the label",
+        "default": false
+      },
+      "content_size": {
+        "type": "number",
+        "description": "works for file input, set the width and height of the content",
+        "default": 100
+      },
+      "max_length": {
+        "type": "number",
+        "description": "max length for array"
+      },
+      "is_gantt_chart_team": {
+        "type": "boolean",
+        "description": "set field as gannt chart team",
+        "default": false
+      }
+    }
+  },
+  "internal_field_features": {
+    "description": "Features and view options of internal fields (object array properties) ",
+    "properties": {
+      "field_name": {
+        "description": "field name"
+      },
+      "parent": {
+        "description": "internal field parent name",
+        "type": "string"
+      },
+      "date_only": {
+        "type": "boolean",
+        "description": "set to true to allow date only selection",
+        "default": false
+      },
+      "read_only": {
+        "type": "boolean",
+        "description": "set to true to set the property to read-only",
+        "default": false
+      },
+      "time_only": {
+        "type": "boolean",
+        "description": "set to true to allow time only selection",
+        "default": false
+      },
+      "order": {
+        "type": "number",
+        "description": "order of field"
+      },
+      "disable_editing": {
+        "type": "boolean",
+        "description": "set to true to disable editing this field",
+        "default": false
+      },
+      "grid_width": {
+        "type": "number",
+        "description": "width in fr for formData (max line width is 12)",
+        "default": 6
+      },
+      "hide_from_form_data": {
+        "type": "boolean",
+        "description": "set to true to hide a field from the formData",
+        "default": false
+      },
+      "hide_from_detail_page": {
+        "type": "boolean",
+        "description": "set to true to hide a column from the detailPage",
+        "default": false
+      },
+      "prevent_adding_and_removing_elements_to_an_array": {
+        "type": "boolean",
+        "description": "set to true for prevent adding and removing elements to an array",
+        "default": false
+      },
+      "hide_label": {
+        "type": "boolean",
+        "description": "set to true to hide the label",
+        "default": false
+      },
+      "more_than_one_file": {
+        "type": "boolean",
+        "description": "set to true to allow more than one file",
+        "default": false
+      }
+    }
+  },
+  "page_features": {
+    "type": "array",
+    "description": [
+      "no_new_button: removes the create button",
+      "no_remove_button: removes the delete button",
+      "cancel_movement_between_sections: removes the button to move between sections",
+      "cancel_movement_between_sections_during_creation: cancels movement between sections while creating a new object"
+    ]
+  },
+  "section_features": {
+    "description": "view options for sections",
+    "section_name": {
+      "label": {
+        "type": "string",
+        "description": "section label"
+      },
+      "hide_from_page": {
+        "type": "boolean",
+        "description": "do not show section on page",
+        "default": false
+      },
+      "hide_from_form_data": {
+        "type": "boolean",
+        "description": "do not show section on formData",
+        "default": false
+      },
+      "disable": {
+        "type": "boolean",
+        "description": "disable section button in formData",
+        "default": false
+      },
+      "joint_sections": {
+        "type": "string array",
+        "description": "joint section name"
+      }
+    }
+  },
+  "default_section": {
+    "description": "default section for page",
+    "type": "string",
+    "default": "exist"
+  }
+}

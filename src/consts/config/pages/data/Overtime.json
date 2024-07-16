@@ -1,0 +1,86 @@
+{
+  "_id": "655f5ee3d71b6e002cf94752",
+  "title": "Overtime",
+  "description": "Fazla Mesailer",
+  "order": 20,
+  "page_type": "table",
+  "field_features": [
+    {
+      "field_name": "employee",
+      "order": 0,
+      "grid_width": 6,
+      "required": true,
+      "disable_editing": true
+    },
+    {
+      "field_name": "without_project",
+      "order": 1,
+      "grid_width": 1,
+      "hide_from_table": true,
+      "disable_editing": true
+    },
+    {
+      "field_name": "job_description",
+      "order": 2,
+      "grid_width": 5,
+      "disable_editing": true
+    },
+    {
+      "field_name": "project",
+      "order": 3,
+      "grid_width": 6,
+      "disable_editing": true
+    },
+    {
+      "field_name": "unit",
+      "order": 4,
+      "grid_width": 6,
+      "disable_editing": true
+    },
+    {
+      "field_name": "overtime",
+      "order": 5,
+      "date_only": true,
+      "grid_width": 2,
+      "required": true,
+      "disable_editing": true
+    },
+    {
+      "field_name": "start_time",
+      "order": 6,
+      "time_only": true,
+      "grid_width": 2,
+      "required": true,
+      "disable_editing": true
+    },
+    {
+      "field_name": "end_time",
+      "order": 7,
+      "time_only": true,
+      "grid_width": 2,
+      "required": true,
+      "disable_editing": true
+    },
+    {
+      "field_name": "overtime_amount",
+      "grid_width": 2,
+      "order": 8,
+      "read_only": true
+    },
+    {
+      "field_name": "department_head_approval",
+      "order": 9,
+      "grid_width": 2
+    },
+    {
+      "field_name": "manager_approval",
+      "order": 10,
+      "grid_width": 2
+    },
+    {
+      "field_name": "reason",
+      "order": 11,
+      "grid_width": 6
+    }
+  ]
+}

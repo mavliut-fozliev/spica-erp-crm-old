@@ -1,0 +1,110 @@
+.container {
+  font-size: 0.875rem;
+}
+
+.top-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-mode-selection {
+  margin-right: 30px;
+  width: 120px;
+}
+
+.gantt {
+  margin-top: 50px !important;
+  max-height: 90vh;
+  width: 100%;
+  overflow-y: auto !important;
+}
+
+.header {
+  font-weight: 500;
+  width: 600px !important;
+  position: fixed;
+  left: 260px;
+  top: 150px;
+  transition: left 0.3s linear !important;
+
+  &-fullScreen {
+    @extend .header;
+    left: 20px;
+  }
+}
+
+.column {
+  font-size: 0.75rem;
+  margin-top: 38px !important;
+  width: 600px !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  height: 100%;
+}
+
+.column-grid {
+  margin-top: 0 !important;
+  height: 50px !important;
+  width: 600px !important;
+  align-items: center !important;
+}
+
+.empty {
+  width: 1000px;
+  height: 100px;
+  background-color: #ffffff;
+  position: absolute;
+  overflow: hidden;
+}
+
+.right-scroll {
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  bottom: 5px;
+  width: 30px;
+  height: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  transition: 0.2s color;
+  border-radius: 50%;
+  background-color: #fff;
+
+  &:hover {
+    color: black;
+  }
+}
+
+.left-scroll {
+  cursor: pointer;
+  position: fixed;
+  right: 60px;
+  bottom: 5px;
+  width: 30px;
+  height: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  transition: 0.2s color;
+  border-radius: 50%;
+  background-color: #fff;
+
+  &:hover {
+    color: black;
+  }
+}
+
+.zero-scroll {
+  cursor: pointer;
+  position: fixed;
+  right: 100px;
+  bottom: 5px;
+  width: 30px;
+  height: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  transition: 0.2s color;
+  border-radius: 50%;
+  background-color: #fff;
+
+  &:hover {
+    color: black;
+  }
+}

@@ -1,0 +1,37 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 !important;
+  height: 60px;
+}
+
+.left-div {
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+  @media (max-width: 850px) {
+    display: none;
+  }
+}
+
+.middle-div {
+  @media (max-width: 850px) {
+    display: block;
+  }
+}
+
+.page-name {
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.back-button-icon {
+  width: 28px !important;
+  height: 50px !important;
+}
+
+.right-div {
+  display: flex;
+  align-items: center;
+  margin-right: 20px !important;
+}

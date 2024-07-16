@@ -1,0 +1,86 @@
+{
+  "_id": "65721d81d71b6e002cfaba28",
+  "title": "Contracts",
+  "description": "Sözleşmeler",
+  "order": 4,
+  "page_type": "table",
+  "field_features": [
+    {
+      "field_name": "customer",
+      "order": 0,
+      "disable_editing": true
+    },
+    {
+      "field_name": "project",
+      "order": 1,
+      "required": true,
+      "disable_editing": true
+    },
+    {
+      "field_name": "delivery_time",
+      "order": 2,
+      "grid_width": 2,
+      "required": true
+    },
+    {
+      "field_name": "product_count",
+      "order": 3,
+      "read_only": true,
+      "grid_width": 2
+    },
+    {
+      "field_name": "agreement",
+      "order": 5,
+      "hide_from_table": true,
+      "hide_from_form_data": true,
+      "more_than_one_file": true
+    },
+    {
+      "field_name": "agreement_date",
+      "order": 6,
+      "grid_width": 2,
+      "date_only": true
+    },
+    {
+      "field_name": "agreement_signed",
+      "order": 7,
+      "hide_from_table": true
+    },
+    {
+      "field_name": "payment",
+      "order": 8,
+      "hide_from_table": true,
+      "required": true
+    }
+  ],
+  "internal_field_features": [
+    {
+      "field_name": "money_amount",
+      "order": 1,
+      "grid_width": 3
+    },
+    {
+      "field_name": "date",
+      "order": 2,
+      "grid_width": 4,
+      "date_only": true
+    },
+    {
+      "field_name": "method",
+      "order": 3,
+      "grid_width": 5
+    }
+  ],
+  "section_features": {
+    "exist": {
+      "label": "Takipteki"
+    },
+    "signed": {
+      "label": "İmzalanan",
+      "disable": true
+    },
+    "unsigned": {
+      "label": "İmzalanmayan"
+    }
+  }
+}

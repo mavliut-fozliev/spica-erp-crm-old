@@ -1,0 +1,15 @@
+.progress-box {
+  position: relative;
+}
+
+.progress {
+  color: green !important;
+}
+
+.progress-text {
+  position: absolute;
+
+  z-index: 100;
+  color: green;
+  font-weight: 600;
+}

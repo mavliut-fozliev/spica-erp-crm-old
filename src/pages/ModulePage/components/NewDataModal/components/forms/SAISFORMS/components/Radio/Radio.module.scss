@@ -1,0 +1,33 @@
+.singleInput::before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
+  color: black;
+  background: black;
+  display: block;
+  top: 5px;
+  left: -8px;
+}
+
+.singleInput {
+  position: relative;
+}
+
+.container {
+  border: 1px solid black;
+  padding: 0.5rem 1.5rem;
+}
+.horizontalRadio {
+  position: relative;
+  top: -17px;
+
+  &-active {
+    color: white;
+  }
+
+  &-sais {
+    @extend .horizontalRadio;
+  }
+}

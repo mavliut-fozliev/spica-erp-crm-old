@@ -1,0 +1,88 @@
+{
+  "_id": "655de5a6d71b6e002cf8ed3b",
+  "title": "SafetyWalk",
+  "description": "SafetyWalk",
+  "order": 15,
+  "page_type": "table",
+  "form_data_type": "custom",
+  "field_features": [
+    {
+      "field_name": "name",
+      "order": 0,
+      "width": 200,
+      "prevent_adding_and_removing_elements_to_an_array": false,
+      "hide_from_form_data": false,
+      "hide_from_table": false,
+      "date_only": false,
+      "hide_from_detail_page": false,
+      "read_only": false,
+      "slider": false,
+      "time_only": false
+    },
+    {
+      "field_name": "test_boolean",
+      "order": 2,
+      "width": 200,
+      "prevent_adding_and_removing_elements_to_an_array": false,
+      "hide_from_form_data": false,
+      "hide_from_table": false,
+      "date_only": false,
+      "hide_from_detail_page": false,
+      "read_only": false,
+      "slider": false,
+      "time_only": false
+    },
+    {
+      "field_name": "test_yes_no",
+      "order": 3,
+      "width": 200,
+      "prevent_adding_and_removing_elements_to_an_array": false,
+      "hide_from_form_data": false,
+      "hide_from_table": false,
+      "date_only": false,
+      "hide_from_detail_page": false,
+      "read_only": false,
+      "slider": false,
+      "time_only": false
+    },
+    {
+      "field_name": "test_radio",
+      "order": 4,
+      "width": 200,
+      "prevent_adding_and_removing_elements_to_an_array": false,
+      "hide_from_form_data": false,
+      "hide_from_table": false,
+      "date_only": false,
+      "hide_from_detail_page": false,
+      "read_only": false,
+      "slider": false,
+      "time_only": false
+    },
+    {
+      "field_name": "test_file",
+      "order": 5,
+      "width": 200,
+      "prevent_adding_and_removing_elements_to_an_array": false,
+      "hide_from_form_data": false,
+      "hide_from_table": false,
+      "date_only": false,
+      "hide_from_detail_page": false,
+      "read_only": false,
+      "slider": false,
+      "time_only": false
+    },
+    {
+      "field_name": "access_identifier",
+      "order": 6,
+      "width": 200,
+      "prevent_adding_and_removing_elements_to_an_array": false,
+      "hide_from_form_data": true,
+      "hide_from_table": true,
+      "date_only": false,
+      "hide_from_detail_page": false,
+      "read_only": false,
+      "slider": false,
+      "time_only": false
+    }
+  ]
+}

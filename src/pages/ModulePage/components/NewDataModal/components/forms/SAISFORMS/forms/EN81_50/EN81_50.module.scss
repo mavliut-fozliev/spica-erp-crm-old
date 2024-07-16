@@ -1,0 +1,166 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+
+ .checkbox{
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  margin-top: 5px;
+
+ }
+
+ .checkbox-label::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 7.5px;
+  background-color: black;
+  margin-right: 2px;
+ }
+
+ .title{
+  font-weight: 400;
+ }
+
+ .telif{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  row-gap: 10px;
+ }
+
+
+
+ul{
+  margin-top: 7px;
+}
+
+ul, ol .circle:before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  -moz-border-radius: 7.5px;
+  -webkit-border-radius: 7.5px;
+  border-radius: 7.5px;
+  background-color: black;
+  margin-right: 4px;
+}
+
+.circle::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  -moz-border-radius: 7.5px;
+  -webkit-border-radius: 7.5px;
+  border-radius: 7.5px;
+  background-color: black;
+  margin-right: 4px;
+}
+
+  .subtitle{
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 2px;
+  }
+}
+
+ol{
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  font-size: 12px;
+  margin-top: 7px;
+}
+
+ul, ol .arrow:before{
+  content: '\25B6'; 
+  display: inline-block;
+  font-size: 14px; 
+  color: black; 
+  margin-right: 4px;
+}
+
+.arrow::before{
+  content: '\25B6'; 
+  display: inline-block;
+  font-size: 14px; 
+  color: black; 
+  margin-right: 4px;
+}
+
+.box{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.eye-image{
+  width: 100px;
+  height: 80px;
+  margin-top: 4px;
+}
+
+.section-image{
+  width: 300px;
+  height: 100px;
+  margin-top: 2px;
+}
+
+.stop-image{
+  width: 120px;
+  margin-top: 4px;
+}
+.small-image{
+  width: 150px;
+  height: 70px;
+  margin-top: 4px;
+}
+.middle-image{
+  width: 250px;
+  height: 100px;
+  margin-top: 4px;
+}
+.large-image{
+  width: 350px;
+  height: 150px;
+  margin-top: 4px;
+}
+.xl-image{
+  width: 500px;
+  height: 350px;
+  margin-top: 4px;
+}
+
+img{
+  max-width: 90%;
+}
+
+.w-500{
+  width: 500px;
+}
+.w-350{
+  width: 350px;
+}
+.w-300{
+  width: 300px;
+}
+.w-250{
+  width: 250px;
+}
+.w-200{
+  width: 200px;
+}
+.w-150{
+  width: 150px;
+}
+.w-100{
+  width: 100px;
+}

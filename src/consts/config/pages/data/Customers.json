@@ -1,0 +1,30 @@
+{
+  "_id": "651d309082063a002c6f9851",
+  "title": "Customers",
+  "description": "Müşteriler",
+  "order": 0,
+  "page_type": "table",
+  "field_features": [
+    {
+      "order": 0,
+      "field_name": "name",
+      "grid_width": 6,
+      "required": true
+    },
+    {
+      "order": 2,
+      "field_name": "address",
+      "grid_width": 6
+    },
+    {
+      "order": 1,
+      "field_name": "phone",
+      "grid_width": 6
+    },
+    {
+      "order": 3,
+      "field_name": "email",
+      "grid_width": 6
+    }
+  ]
+}
